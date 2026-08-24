@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Holter")(type "KiCad")(uri "${KIPRJMOD}/libraries/holter_v1.kicad_sym")(options "")(descr "Holter V1 project symbols"))
+)
