@@ -1,0 +1,11 @@
+﻿Comment,Designator,Footprint,LCSC Part #,Manufacturer Part Number,Manufacturer,Quantity
+1nF 1kV C0G,C1,C_1206_3216Metric,,C1206C102JDGACTU,KEMET,1
+PESD5V0U1UL,D1,D_SOD-882,,"PESD5V0U1UL,315",Nexperia,1
+Green 0603,D2,LED_0603_1608Metric,,LTST-C190KGKT,Lite-On,1
+0.50A PTC,F1,Fuse_0603_1608Metric,,MF-FSMF050X-2,Bourns,1
+USB-C USB2.0,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,,TYPE-C-31-M-12,Korean Hroparts Elec,1
+4x spring pogo,J2,Pogo_Dock_4x1_P2.54_Top,,0906-series / hand fitted,Mill-Max,1
+5.1k 1%,"R1,R2",R_0402_1005Metric,,RC0402FR-075K1L,Yageo,2
+1M,R3,R_0603_1608Metric,,RC0603FR-071ML,Yageo,1
+3.3k,R5,R_0402_1005Metric,,RC0402FR-073K3L,Yageo,1
+TPD2EUSB30DRTR,U1,SOT-23,,TPD2EUSB30DRTR,Texas Instruments,1

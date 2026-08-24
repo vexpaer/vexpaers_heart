@@ -1,0 +1,13 @@
+﻿Reference,Quantity,Value,Manufacturer,Manufacturer Part Number,Footprint,DNP,Description
+J1,1,USB-C USB2.0,Korean Hroparts Elec,TYPE-C-31-M-12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,,16-contact horizontal USB Type-C receptacle
+R1,1,5.1k 1%,Yageo,RC0402FR-075K1L,Resistor_SMD:R_0402_1005Metric,,Resistor
+R2,1,5.1k 1%,Yageo,RC0402FR-075K1L,Resistor_SMD:R_0402_1005Metric,,Resistor
+D1,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Connector-side VBUS ESD suppressor
+F1,1,0.50A PTC,Bourns,MF-FSMF050X-2,Fuse:Fuse_0603_1608Metric,,Resettable fuse
+U1,1,TPD2EUSB30DRTR,Texas Instruments,TPD2EUSB30DRTR,Package_TO_SOT_SMD:SOT-23,,Two-channel low-capacitance USB 2.0 ESD protection
+J2,1,4x spring pogo,Mill-Max,0906-series / hand fitted,Dock:Pogo_Dock_4x1_P2.54_Top,,Four replaceable spring pins in a keyed fixture
+R3,1,1M,Yageo,RC0603FR-071ML,Resistor_SMD:R_0603_1608Metric,,Resistor
+C1,1,1nF 1kV C0G,KEMET,C1206C102JDGACTU,Capacitor_SMD:C_1206_3216Metric,,Capacitor
+R4,1,0R DNP,Yageo,RC0603JR-070RL,Resistor_SMD:R_0603_1608Metric,DNP,Optional direct shield bond after EMC evaluation
+R5,1,3.3k,Yageo,RC0402FR-073K3L,Resistor_SMD:R_0402_1005Metric,,Resistor
+D2,1,Green 0603,Lite-On,LTST-C190KGKT,LED_SMD:LED_0603_1608Metric,,Low-current status LED

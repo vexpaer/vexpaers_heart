@@ -1,0 +1,2031 @@
+(kicad_sch
+	(version 20250114)
+	(generator "usb_pogo_dock_generator")
+	(generator_version "10.0")
+	(uuid "9ed4476d-703a-55fc-beba-ec1d65ed86f2")
+	(paper "A4")
+	(title_block
+		(title "Holter V1 USB-C Pogo Dock")
+		(date "2026-08-24")
+		(rev "1.0")
+		(company "Research prototype — not a medical device")
+		(comment 1 "Fixture mechanically blocks use with ECG harness")
+		(comment 2 "USB-C sink; no battery charging path")
+	)
+	(lib_symbols
+		(symbol "Holter:R"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "R"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "R_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:C"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "C"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "C_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:D"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "D"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "D_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:D_BIDIR"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "D_BIDIR"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Bidirectional low-leakage ESD suppressor"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "D_BIDIR_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:L"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "L"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Inductor or ferrite bead"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "L_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:FUSE"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "FUSE"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Resettable fuse"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "FUSE_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:LED"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "LED"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Low-current status LED"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "LED_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:XTAL4"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "XTAL4"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Four-pad crystal"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "XTAL4_1_1"
+				(rectangle
+					(start -3.81 -3.81)
+					(end 3.81 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "X1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "GND1" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X2" (effects (font (size 0.9 0.9))))
+					(number "3" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND2" (effects (font (size 0.9 0.9))))
+					(number "4" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:XTAL2"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "XTAL2"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Two-pad crystal"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "XTAL2_1_1"
+				(rectangle
+					(start -3.81 -3.81)
+					(end 3.81 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "X1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X2" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:PMOS"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "PMOS"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "P-channel MOSFET"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "PMOS_1_1"
+				(rectangle
+					(start -3.81 -3.81)
+					(end 3.81 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "S" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "D" (effects (font (size 0.9 0.9))))
+					(number "3" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:ANT"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "ANT"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "2.4 GHz chip antenna; terminal 2 is mechanical NC"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "ANT_1_1"
+				(rectangle
+					(start -3.81 -3.81)
+					(end 3.81 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "FEED" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "NC" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:TP"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "TP"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Test point"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "TP_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:PWR_FLAG"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "ERC power-source declaration; no physical part"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "PWR_FLAG_1_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin power_out line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "pwr" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:USB_C_16"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -13.97 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "USB_C_16"
+				(at 0 13.97 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "USB 2.0 Type-C receptacle configured as a 5 V sink"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "USB_C_16_1_1"
+				(rectangle
+					(start -12.7 -11.43)
+					(end 12.7 11.43)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -15.24 -8.89 0)
+					(length 2.54)
+					(name "GND" (effects (font (size 0.9 0.9))))
+					(number "A1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "VBUS" (effects (font (size 0.9 0.9))))
+					(number "A4" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "CC1" (effects (font (size 0.9 0.9))))
+					(number "A5" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 -1.27 0)
+					(length 2.54)
+					(name "D+" (effects (font (size 0.9 0.9))))
+					(number "A6" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "D-" (effects (font (size 0.9 0.9))))
+					(number "A7" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "SBU1" (effects (font (size 0.9 0.9))))
+					(number "A8" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "VBUS" (effects (font (size 0.9 0.9))))
+					(number "A9" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name "GND" (effects (font (size 0.9 0.9))))
+					(number "A12" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 -8.89 180)
+					(length 2.54)
+					(name "GND" (effects (font (size 0.9 0.9))))
+					(number "B1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "VBUS" (effects (font (size 0.9 0.9))))
+					(number "B4" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "CC2" (effects (font (size 0.9 0.9))))
+					(number "B5" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "D+" (effects (font (size 0.9 0.9))))
+					(number "B6" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "D-" (effects (font (size 0.9 0.9))))
+					(number "B7" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 3.81 180)
+					(length 2.54)
+					(name "SBU2" (effects (font (size 0.9 0.9))))
+					(number "B8" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 6.35 180)
+					(length 2.54)
+					(name "VBUS" (effects (font (size 0.9 0.9))))
+					(number "B9" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 15.24 8.89 180)
+					(length 2.54)
+					(name "GND" (effects (font (size 0.9 0.9))))
+					(number "B12" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "SHIELD" (effects (font (size 0.9 0.9))))
+					(number "SH" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:POGO4"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -8.89 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "POGO4"
+				(at 0 8.89 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Four spring-contact pins aligned to the recorder's bottom pads"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "POGO4_1_1"
+				(rectangle
+					(start -7.62 -6.35)
+					(end 7.62 6.35)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "VBUS" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "D-" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "D+" (effects (font (size 0.9 0.9))))
+					(number "3" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "GND" (effects (font (size 0.9 0.9))))
+					(number "4" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Holter:USB_ESD"
+			(pin_names (offset 0.508))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "USB_ESD"
+				(at 0 6.35 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Description" "Two-channel low-capacitance USB 2.0 ESD protection"
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects (font (size 1.27 1.27)) (hide yes))
+			)
+			(symbol "USB_ESD_1_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end 5.08 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "D+" (effects (font (size 0.9 0.9))))
+					(number "1" (effects (font (size 0.9 0.9))))
+				)
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "GND" (effects (font (size 0.9 0.9))))
+					(number "2" (effects (font (size 0.9 0.9))))
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D-" (effects (font (size 0.9 0.9))))
+					(number "3" (effects (font (size 0.9 0.9))))
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "HOLTER V1 USB-C POGO DOCK"
+		(exclude_from_sim no)
+		(at 20 18 0)
+		(effects (font (size 3 3) (thickness 0.35)) (justify left bottom))
+		(uuid "b1d5c15e-e1f8-5ecc-b13e-f9f28844ceba")
+	)
+	(text "FIXTURE ONLY — MECHANICAL INTERLOCK BLOCKS DOCKING WITH ECG HARNESS"
+		(exclude_from_sim no)
+		(at 20 26 0)
+		(effects (font (size 1.8 1.8) (thickness 0.35)) (justify left bottom))
+		(uuid "d0ff852d-e7ae-5de8-b553-cd14f46ff3e6")
+	)
+	(text "USB-C SINK / CC TERMINATION / ESD / CURRENT LIMIT"
+		(exclude_from_sim no)
+		(at 20 38 0)
+		(effects (font (size 2 2) (thickness 0.35)) (justify left bottom))
+		(uuid "8f4ea391-abb5-5c02-a779-d070d9740fed")
+	)
+	(text "POGO CONTACTS: VBUS / D- / D+ / GND"
+		(exclude_from_sim no)
+		(at 165 38 0)
+		(effects (font (size 2 2) (thickness 0.35)) (justify left bottom))
+		(uuid "cc06d02a-09a4-5e6a-a0c0-933eb541c153")
+	)
+	(symbol
+		(lib_id "Holter:USB_C_16")
+		(at 64.77 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d72876e5-3823-5442-9aaf-b2fdbd6b8407")
+		(property "Reference" "J1"
+			(at 64.77 101.6 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "USB-C USB2.0"
+			(at 64.77 129.54 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 64.77 115.57 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" "http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf"
+			(at 64.77 115.57 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "16-contact horizontal USB Type-C receptacle"
+			(at 64.77 115.57 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 64.77 115.57 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 64.77 115.57 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "A1"
+			(uuid "1dd467cf-0453-55af-88e9-92143838f264")
+		)
+		(pin "A4"
+			(uuid "182b1d33-bdce-5beb-8823-ca1d33d4b79a")
+		)
+		(pin "A5"
+			(uuid "8667ccfd-1666-5a64-bc1b-20715b53c437")
+		)
+		(pin "A6"
+			(uuid "da5299f7-ce97-5492-b0e4-93dba8bb9dcd")
+		)
+		(pin "A7"
+			(uuid "958f469a-2856-5edc-acec-c20c23c372d9")
+		)
+		(pin "A8"
+			(uuid "688e041d-74ea-5125-aaad-8492af6743c7")
+		)
+		(pin "A9"
+			(uuid "4d92510e-a468-5532-a144-f9206ffcc2ca")
+		)
+		(pin "A12"
+			(uuid "08aec835-c128-5594-916d-e6c0d66d31dc")
+		)
+		(pin "B1"
+			(uuid "85d10835-5b73-55d7-9bbc-6638b06b2a53")
+		)
+		(pin "B4"
+			(uuid "63b5a5b3-295e-58cd-86f1-09b14c5b13ac")
+		)
+		(pin "B5"
+			(uuid "9ac3c2ef-914e-5232-a44c-56850fcbc2fd")
+		)
+		(pin "B6"
+			(uuid "95a32836-29d4-58c1-beea-08f824b16e23")
+		)
+		(pin "B7"
+			(uuid "eaeafd16-a9d5-55ee-9abc-e98010fd1d6e")
+		)
+		(pin "B8"
+			(uuid "4e6e7e6d-41a0-5249-8fc3-b7f8a939a682")
+		)
+		(pin "B9"
+			(uuid "55d08c43-c062-5cec-af70-56cc0ec107fb")
+		)
+		(pin "B12"
+			(uuid "adbab485-8c52-5727-a386-b03b137186d2")
+		)
+		(pin "SH"
+			(uuid "b5fe7fd9-da4a-5030-9d51-0aaa87e28c38")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "GND"
+		(at 49.53 124.46 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "b82cd775-4fc1-57c9-bfe8-633cb6b59fd4")
+	)
+	(label "VBUS_CONN"
+		(at 49.53 121.92 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "aa5e81d9-1a15-58c7-8bbe-c9141fad62bc")
+	)
+	(label "CC1"
+		(at 49.53 119.38 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "d2f01090-c7d1-5029-831b-c8436d86a85c")
+	)
+	(label "USB_DP"
+		(at 49.53 116.84 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "59f2e440-94de-585b-91e7-5cb5a6e2abc7")
+	)
+	(label "USB_DM"
+		(at 49.53 114.3 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "fafbe090-e111-53f3-8313-ac4db04673f6")
+	)
+	(no_connect (at 49.53 111.76)
+		(uuid "d5ca43b9-916b-53e6-a92d-b9677ddb04ec")
+	)
+	(label "VBUS_CONN"
+		(at 49.53 109.22 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "9c65c349-0f66-5138-8da5-7518f1a842b7")
+	)
+	(label "GND"
+		(at 49.53 106.68 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "2c862d8e-e94b-5551-999e-c7c2f9efd5fe")
+	)
+	(label "GND"
+		(at 80.01 124.46 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "e1318421-4cd7-5952-b435-48c551506690")
+	)
+	(label "VBUS_CONN"
+		(at 80.01 121.92 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "235ffa12-7192-5823-9c7e-b0a0e954c38b")
+	)
+	(label "CC2"
+		(at 80.01 119.38 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "e578ae3e-e465-551f-8901-f846a26d11f2")
+	)
+	(label "USB_DP"
+		(at 80.01 116.84 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "7f8626f0-48d8-5139-b4eb-0fd23cb3ee40")
+	)
+	(label "USB_DM"
+		(at 80.01 114.3 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "338499c7-8429-5a12-80ce-4a375b8d2a95")
+	)
+	(no_connect (at 80.01 111.76)
+		(uuid "0882d14f-4cc3-5b92-92ba-7204df0aae29")
+	)
+	(label "VBUS_CONN"
+		(at 80.01 109.22 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "00366ac8-ba57-5e2a-aa5e-dab8a5c1837b")
+	)
+	(label "GND"
+		(at 80.01 106.68 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "942cabbf-120e-5a2e-8155-a35fd419fe4f")
+	)
+	(label "USB_SHIELD"
+		(at 64.77 101.6 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "5e7d149f-089d-50c9-957a-09344bfd4728")
+	)
+	(symbol
+		(lib_id "Holter:R")
+		(at 115.57 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe279f21-cc97-5dbb-861a-09c0d0051baf")
+		(property "Reference" "R1"
+			(at 115.57 68.58 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "5.1k 1%"
+			(at 115.57 81.28 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 74.93 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 115.57 74.93 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 115.57 74.93 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Yageo"
+			(at 115.57 74.93 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 115.57 74.93 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "65d2b5c9-2baa-5b59-8a6a-ede2764f8f41")
+		)
+		(pin "2"
+			(uuid "18967b0b-10ca-527c-91f3-270e78a17396")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "CC1"
+		(at 110.49 74.93 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "33a778bb-c0e7-55da-9343-9f273b5c49b8")
+	)
+	(label "GND"
+		(at 120.65 74.93 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "981584b9-51c4-592b-81c4-bff67039a2e9")
+	)
+	(symbol
+		(lib_id "Holter:R")
+		(at 115.57 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d03a73b5-b0e7-59ad-801b-1f03e879e8f8")
+		(property "Reference" "R2"
+			(at 115.57 88.9 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "5.1k 1%"
+			(at 115.57 101.6 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 95.25 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 115.57 95.25 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 115.57 95.25 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Yageo"
+			(at 115.57 95.25 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 115.57 95.25 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "150dd024-30e8-59a5-9476-cdb5d7ac778b")
+		)
+		(pin "2"
+			(uuid "b18cfffd-a5b9-5b65-a24f-4f493290dc00")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "CC2"
+		(at 110.49 95.25 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "cffc6022-ab3b-5f63-b840-e854f81996cf")
+	)
+	(label "GND"
+		(at 120.65 95.25 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "dba97e80-b5f0-58de-8a6c-7ce322cfa297")
+	)
+	(symbol
+		(lib_id "Holter:D_BIDIR")
+		(at 115.57 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1387a8e-ff06-506c-98bc-5a71d50a0bf7")
+		(property "Reference" "D1"
+			(at 115.57 118.11 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "PESD5V0U1UL"
+			(at 115.57 130.81 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 115.57 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 115.57 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Connector-side VBUS ESD suppressor"
+			(at 115.57 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 115.57 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "PESD5V0U1UL,315"
+			(at 115.57 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "bb726e47-f896-51d3-a732-19692ef4ef69")
+		)
+		(pin "2"
+			(uuid "a0a9ac11-e418-5cbd-8ddb-77dc4adac73d")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "VBUS_CONN"
+		(at 110.49 124.46 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "93bc0406-6e01-507c-8514-7c446169f4f4")
+	)
+	(label "GND"
+		(at 120.65 124.46 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "6bcb5aac-8f92-5dda-a803-e9f4d7c1396c")
+	)
+	(symbol
+		(lib_id "Holter:FUSE")
+		(at 149.86 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c0bc574-baeb-53ea-844a-56d409997824")
+		(property "Reference" "F1"
+			(at 149.86 118.11 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "0.50A PTC"
+			(at 149.86 130.81 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 149.86 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 149.86 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Resettable fuse"
+			(at 149.86 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Bourns"
+			(at 149.86 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "MF-FSMF050X-2"
+			(at 149.86 124.46 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "5e168ba7-07e8-5ef6-9a00-1e2b7ce2a89e")
+		)
+		(pin "2"
+			(uuid "5e3ba933-e142-5288-a948-68812c89421b")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "VBUS_CONN"
+		(at 144.78 124.46 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "2ec2bb36-f583-5445-ab1e-958c40382430")
+	)
+	(label "VBUS_POGO"
+		(at 154.94 124.46 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "e677dfc1-cc98-515f-9a8f-db488739e42e")
+	)
+	(symbol
+		(lib_id "Holter:USB_ESD")
+		(at 144.78 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1294105f-e6fd-5e28-872a-d09cb2939d09")
+		(property "Reference" "U1"
+			(at 144.78 78.74 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "TPD2EUSB30DRTR"
+			(at 144.78 91.44 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Two-channel low-capacitance USB 2.0 ESD protection"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "TPD2EUSB30DRTR"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "d6c9d4b5-4fd5-5536-a4d1-9570896bba59")
+		)
+		(pin "2"
+			(uuid "30f0fcb1-b3a2-59f4-8950-64728ea4fd16")
+		)
+		(pin "3"
+			(uuid "ed81763b-2ec1-5416-a478-0855c5ea2b2b")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "USB_DP"
+		(at 137.16 86.36 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "c9703537-d2f5-58da-af1a-558360fd30e7")
+	)
+	(label "GND"
+		(at 137.16 83.82 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "90728438-75c9-511f-bf5b-d24678a3f849")
+	)
+	(label "USB_DM"
+		(at 152.4 85.09 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "8ee2bf77-c385-570f-b24b-6ac2dc45ce27")
+	)
+	(symbol
+		(lib_id "Holter:POGO4")
+		(at 204.47 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9855d40-ea3e-5fcb-8ba6-085cda7d7388")
+		(property "Reference" "J2"
+			(at 204.47 91.44 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "4x spring pogo"
+			(at 204.47 109.22 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Dock:Pogo_Dock_4x1_P2.54_Top"
+			(at 204.47 100.33 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 204.47 100.33 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Four replaceable spring pins in a keyed fixture"
+			(at 204.47 100.33 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Mill-Max"
+			(at 204.47 100.33 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "0906-series / hand fitted"
+			(at 204.47 100.33 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "e8d00408-2d20-5a10-a8ec-7a777f121e20")
+		)
+		(pin "2"
+			(uuid "f66a69e2-222e-5125-b378-50aa0e840277")
+		)
+		(pin "3"
+			(uuid "bf9239bb-7390-5057-914b-0d3b41b3869d")
+		)
+		(pin "4"
+			(uuid "67810cc8-d5d9-5104-afa1-2f601d151054")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "VBUS_POGO"
+		(at 214.63 104.14 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "d49f7790-0ea6-5cda-a98e-5fb7d3527e84")
+	)
+	(label "USB_DM"
+		(at 214.63 101.6 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "40365995-8ede-5e6c-a8a6-35f5c9702575")
+	)
+	(label "USB_DP"
+		(at 214.63 99.06 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "7c318e0f-3bf6-53f5-9ab8-2e6bdddfbc50")
+	)
+	(label "GND"
+		(at 214.63 96.52 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "89a0e38e-eb37-59b3-9297-f7e73d32d262")
+	)
+	(symbol
+		(lib_id "Holter:R")
+		(at 115.57 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3bb7017-d9b2-5cd5-9416-907109338cf6")
+		(property "Reference" "R3"
+			(at 115.57 153.67 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "1M"
+			(at 115.57 166.37 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.57 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 115.57 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 115.57 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Yageo"
+			(at 115.57 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-071ML"
+			(at 115.57 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "5c196ebb-cac8-500a-bdc7-014c3ae5c8aa")
+		)
+		(pin "2"
+			(uuid "76fe5cdf-0835-5ea7-bc0a-ff1b06131361")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "USB_SHIELD"
+		(at 110.49 160.02 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "c919bf6a-293b-5db7-912f-9b7e48402193")
+	)
+	(label "GND"
+		(at 120.65 160.02 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "d35f2250-1cd9-54af-ac8a-d08ca02fa603")
+	)
+	(symbol
+		(lib_id "Holter:C")
+		(at 149.86 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd91ff2e-7589-5d17-ab49-351d80e51858")
+		(property "Reference" "C1"
+			(at 149.86 153.67 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "1nF 1kV C0G"
+			(at 149.86 166.37 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 149.86 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 149.86 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Capacitor"
+			(at 149.86 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "KEMET"
+			(at 149.86 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "C1206C102JDGACTU"
+			(at 149.86 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "04d3ee63-2986-5c89-8e83-cceea4cbb13a")
+		)
+		(pin "2"
+			(uuid "7d9b6d5b-5e48-56e8-b5bf-5d45e97d4ce1")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "USB_SHIELD"
+		(at 144.78 160.02 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "0575808c-4d75-57da-93d7-22765dba9192")
+	)
+	(label "GND"
+		(at 154.94 160.02 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "10a76c45-cc7a-57eb-852d-28f3d9169e3e")
+	)
+	(symbol
+		(lib_id "Holter:R")
+		(at 185.42 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "68efa142-058b-53ec-84b7-e2225b5b207c")
+		(property "Reference" "R4"
+			(at 185.42 153.67 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "0R DNP"
+			(at 185.42 166.37 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 185.42 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Optional direct shield bond after EMC evaluation"
+			(at 185.42 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Yageo"
+			(at 185.42 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 185.42 160.02 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "3a47970c-b273-594f-88fc-b55d26103fee")
+		)
+		(pin "2"
+			(uuid "0eab8cdb-63bd-5dc8-b9b7-2d1eefb3d031")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "USB_SHIELD"
+		(at 180.34 160.02 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "6f405c12-2b82-56fd-946f-590cae1d4190")
+	)
+	(label "GND"
+		(at 190.5 160.02 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "3813597a-bdcf-5b24-a045-fb7934ec9f58")
+	)
+	(symbol
+		(lib_id "Holter:R")
+		(at 165.1 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b4de14d-114b-554f-807b-3a7e9d50a1aa")
+		(property "Reference" "R5"
+			(at 165.1 184.15 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "3.3k"
+			(at 165.1 196.85 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.1 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 165.1 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 165.1 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Yageo"
+			(at 165.1 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "RC0402FR-073K3L"
+			(at 165.1 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "4651c70d-6968-548a-9854-4cfe97093394")
+		)
+		(pin "2"
+			(uuid "21a85988-e881-5713-b73a-fa31286d408e")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "VBUS_POGO"
+		(at 160.02 190.5 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "98f17769-c632-5e17-b358-6fdec25c28c7")
+	)
+	(label "DOCK_LED_A"
+		(at 170.18 190.5 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "8e3d9c8c-2719-5f1e-acab-affb7825e23b")
+	)
+	(symbol
+		(lib_id "Holter:LED")
+		(at 204.47 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c009787-d5e5-51b7-8d82-9040be5e7b60")
+		(property "Reference" "D2"
+			(at 204.47 184.15 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "Green 0603"
+			(at 204.47 196.85 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 204.47 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 204.47 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "Low-current status LED"
+			(at 204.47 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 204.47 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" "LTST-C190KGKT"
+			(at 204.47 190.5 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "cf053142-027e-5d3e-a103-c17b9e30fdd9")
+		)
+		(pin "2"
+			(uuid "4a7f93fd-17f4-5bf1-bd03-cc467b74080e")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "GND"
+		(at 199.39 190.5 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "b65b4758-2f5c-5ee2-add5-fd0aa898c0c4")
+	)
+	(label "DOCK_LED_A"
+		(at 209.55 190.5 0)
+		(effects (font (size 0.75 0.75)) (justify left bottom))
+		(uuid "adfb6d18-76cf-50ab-99ed-d384aa8aef37")
+	)
+	(symbol
+		(lib_id "Holter:PWR_FLAG")
+		(at 91.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "697088ce-b33e-5529-902c-77b0cd4df6c8")
+		(property "Reference" "#FLG01"
+			(at 91.44 48.26 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 91.44 60.96 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" ""
+			(at 91.44 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 91.44 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "ERC power-source declaration; no physical part"
+			(at 91.44 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" ""
+			(at 91.44 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" ""
+			(at 91.44 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "43db1878-d6a7-51d3-bbe0-e5d716b7ba0c")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "VBUS_CONN"
+		(at 86.36 54.61 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "bee87f01-941a-5f96-abf1-df4e68c8b00a")
+	)
+	(symbol
+		(lib_id "Holter:PWR_FLAG")
+		(at 111.76 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ecc69ebb-0992-5819-be94-a7ea04d23680")
+		(property "Reference" "#FLG02"
+			(at 111.76 48.26 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 60.96 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" ""
+			(at 111.76 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 111.76 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Description" "ERC power-source declaration; no physical part"
+			(at 111.76 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "Manufacturer" ""
+			(at 111.76 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(property "MPN" ""
+			(at 111.76 54.61 0)
+			(effects (font (size 1.0 1.0)) (hide yes))
+		)
+		(pin "1"
+			(uuid "8dfd6e1e-e817-5658-b9b1-89ff15b31c80")
+		)
+		(instances
+			(project "usb_pogo_dock"
+				(path "/9ed4476d-703a-55fc-beba-ec1d65ed86f2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "GND"
+		(at 106.68 54.61 0)
+		(effects (font (size 0.75 0.75)) (justify right bottom))
+		(uuid "37288482-7ef7-5886-87ab-704262e36a1b")
+	)
+	(sheet_instances
+		(path "/" (page "1"))
+	)
+	(embedded_fonts no)
+)

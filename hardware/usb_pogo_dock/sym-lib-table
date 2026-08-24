@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Holter")(type "KiCad")(uri "${KIPRJMOD}/libraries/usb_pogo_dock.kicad_sym")(options "")(descr "Dock symbols"))
+)

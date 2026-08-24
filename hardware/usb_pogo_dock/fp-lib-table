@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Dock")(type "KiCad")(uri "${KIPRJMOD}/libraries/usb_pogo_dock.pretty")(options "")(descr "Dock fixture footprints"))
+)

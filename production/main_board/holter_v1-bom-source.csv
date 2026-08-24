@@ -1,0 +1,160 @@
+﻿Reference,Quantity,Value,Manufacturer,Manufacturer Part Number,Footprint,DNP,Description
+AE1,1,2450AT18A100E,Johanson Technology,2450AT18A100E,RF_Antenna:Johanson_2450AT18x100_2400-2500Mhz,,2.4 GHz chip antenna; terminal 2 is mechanical NC
+C1,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C2,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C3,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C4,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C5,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C6,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C7,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C8,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C9,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C10,1,100p C0G DNP,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,DNP,Capacitor
+C11,1,1nF 100V C0G,KEMET,C0603C102J1GACTU,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C12,1,1.5nF C0G,Murata,GRM1555C1H152JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C13,1,100p C0G,Murata,GRM1555C1H101JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C14,1,10u 6.3V X5R,Murata,GRM188R60J106ME47D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C15,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C16,1,22u 6.3V X5R,Murata,GRM188R60J226MEA0D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C17,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C18,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C19,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C20,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C21,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C22,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C23,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C24,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C25,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C26,1,2.2n C0G DNP,Murata,GRM1555C1H222JA01D,Capacitor_SMD:C_0402_1005Metric,DNP,Capacitor
+C27,1,2.2n C0G DNP,Murata,GRM1555C1H222JA01D,Capacitor_SMD:C_0402_1005Metric,DNP,Capacitor
+C28,1,10u 6.3V X5R,Murata,GRM188R60J106ME47D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C29,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C30,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C31,1,22u 6.3V X5R,Murata,GRM21BR60J226ME39L,Capacitor_SMD:C_0805_2012Metric,,Capacitor
+C32,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C33,1,10u 6.3V X5R,Murata,GRM188R60J106ME47D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C34,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C35,1,10u 6.3V X5R,Murata,GRM188R60J106ME47D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C36,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C37,1,4.7u X7R,Murata,GRM188Z71A475KE15D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C38,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C39,1,47u 6.3V X5R,Murata,GRM21BR60J476ME15L,Capacitor_SMD:C_0805_2012Metric,,Capacitor
+C40,1,47u 6.3V X5R,Murata,GRM21BR60J476ME15L,Capacitor_SMD:C_0805_2012Metric,,Capacitor
+C41,1,47u 6.3V X5R,Murata,GRM21BR60J476ME15L,Capacitor_SMD:C_0805_2012Metric,,Capacitor
+C42,1,8.2p C0G,Murata,GRM1555C1H8R2CA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C43,1,8.2p C0G,Murata,GRM1555C1H8R2CA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C44,1,10p C0G,Murata,GRM1555C1H100JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C45,1,10p C0G,Murata,GRM1555C1H100JA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C46,1,4.7u X7R,Murata,GRM188Z71A475KE15D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C47,1,4.7u X7R,Murata,GRM188Z71A475KE15D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C48,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C49,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C50,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C51,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C52,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C53,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C54,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C55,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C56,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C57,1,4.7u X7R,Murata,GRM188Z71A475KE15D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C58,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C59,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C60,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C61,1,1n X7R,Murata,GRM155R71H102KA01D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C62,1,1u X7R,Murata,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,,Capacitor
+C63,1,22u 6.3V X5R,Murata,GRM21BR60J226ME39L,Capacitor_SMD:C_0805_2012Metric,,Capacitor
+C64,1,100n X7R,Murata,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,,Capacitor
+C65,1,DNP,,,Capacitor_SMD:C_0402_1005Metric,DNP,RF pi-network shunt tuning position
+C66,1,DNP,,,Capacitor_SMD:C_0402_1005Metric,DNP,RF pi-network shunt tuning position
+D1,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Connector-side low-capacitance ESD suppressor; characterize leakage
+D2,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Connector-side low-capacitance ESD suppressor; characterize leakage
+D3,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Connector-side low-capacitance ESD suppressor; characterize leakage
+D4,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Connector-side low-capacitance ESD suppressor; characterize leakage
+D5,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Connector-side low-capacitance ESD suppressor; characterize leakage
+D6,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D7,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D8,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D9,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D10,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D11,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D12,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D13,1,BAS116,Nexperia,"BAS116,115",Diode_SMD:D_SOD-323,,Diode
+D14,1,PESD5V0U1UL,Nexperia,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,,Bidirectional low-leakage ESD suppressor
+D15,1,BAT54H,Nexperia,"BAT54H,115",Diode_SMD:D_SOD-323,,Diode
+D16,1,GREEN 0603,Wurth Elektronik,150060VS75000,LED_SMD:LED_0603_1608Metric,,Low-current status LED
+F1,1,0.50A PTC,Bourns,MF-FSMF050X-2,Fuse:Fuse_0603_1608Metric,,Resettable fuse
+F2,1,0.50A PTC,Bourns,MF-FSMF050X-2,Fuse:Fuse_0603_1608Metric,,Resettable fuse
+FB1,1,600R@100MHz,Murata,BLM15AG601SN1D,Inductor_SMD:L_0603_1608Metric,,Inductor or ferrite bead
+J1,1,ECG_HARNESS,Molex,78171-5006,Holter:Molex_Pico-EZmate_78171-5006,,Molex Pico-EZmate six-position ECG harness connector
+J2,1,PROTECTED_1S_LIPO,Molex,78171-0002,Connector_Molex:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical,,Protected 1S LiPo connector
+J4,1,MICROSD,Molex,104031-0811,Connector_Card:microSD_HC_Molex_104031-0811,,Molex 104031-0811 microSD push-pull connector with card detect
+L1,1,10nH,Murata,LQG15HN10NJ02D,Inductor_SMD:L_0603_1608Metric,,Inductor or ferrite bead
+L2,1,2.2uH,Murata,LQM18PN2R2MFRL,Inductor_SMD:L_0603_1608Metric,,Inductor or ferrite bead
+Q1,1,DMP2035U,Diodes Incorporated,DMP2035U-7,Package_TO_SOT_SMD:SOT-23,,P-channel high-side reverse-polarity protection MOSFET
+R1,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R2,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R3,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R4,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R5,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R6,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R7,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R8,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R9,1,47.5k 0.1%,Yageo,RT0603BRD0747K5L,Resistor_SMD:R_0603_1608Metric,,Resistor
+R10,1,162k 0.1%,Yageo,RT0603BRD07162KL,Resistor_SMD:R_0603_1608Metric,,Resistor
+R11,1,162k 0.1%,Yageo,RT0603BRD07162KL,Resistor_SMD:R_0603_1608Metric,,Resistor
+R12,1,1M,Yageo,RC0603FR-071ML,Resistor_SMD:R_0603_1608Metric,,Resistor
+R13,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R14,1,1M,Yageo,RC0402FR-071ML,Resistor_SMD:R_0402_1005Metric,,Resistor
+R15,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R16,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R17,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R18,1,40.2k 0.1% DNP,Yageo,RT0402BRD0740K2L,Resistor_SMD:R_0402_1005Metric,DNP,Resistor
+R19,1,40.2k 0.1% DNP,Yageo,RT0402BRD0740K2L,Resistor_SMD:R_0402_1005Metric,DNP,Resistor
+R20,1,1M,Yageo,RC0402FR-071ML,Resistor_SMD:R_0402_1005Metric,,Resistor
+R21,1,22R,Yageo,RC0402FR-0722RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R22,1,22R,Yageo,RC0402FR-0722RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R23,1,300k,Yageo,RC0402FR-07300KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R24,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R25,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R26,1,1M,Yageo,RC0402FR-071ML,Resistor_SMD:R_0402_1005Metric,,Resistor
+R27,1,330k,Yageo,RC0402FR-07330KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R28,1,1k,Yageo,RC0402FR-071KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R29,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R30,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R31,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R32,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R33,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R34,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R35,1,470k,Yageo,RC0402FR-07470KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R36,1,680k,Yageo,RC0402FR-07680KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R37,1,2.2k,Yageo,RC0402FR-072K2L,Resistor_SMD:R_0402_1005Metric,,Resistor
+R38,1,4.7k,Yageo,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,,Resistor
+R39,1,4.7k,Yageo,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,,Resistor
+R40,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R41,1,22R,Yageo,RC0402FR-0722RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R42,1,22R,Yageo,RC0402FR-0722RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R43,1,22R,Yageo,RC0402FR-0722RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R44,1,22R,Yageo,RC0402FR-0722RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R45,1,47k,Yageo,RC0402FR-0747KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R46,1,47k,Yageo,RC0402FR-0747KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R47,1,47k,Yageo,RC0402FR-0747KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R48,1,47k,Yageo,RC0402FR-0747KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R49,1,47k,Yageo,RC0402FR-0747KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R50,1,100k,Yageo,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R51,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R52,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R53,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R54,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+R55,1,0R,Yageo,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,,Resistor
+U1,1,ADS1294RIZXGT,Texas Instruments,ADS1294RIZXGT,Holter:ADS1294R_ZXG,,"TI four-channel 24-bit ECG AFE with RLD, WCT and respiration support"
+U2,1,STM32WB55RGV6,STMicroelectronics,STM32WB55RGV6,Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm_ThermalVias,,"ST dual-core BLE/802.15.4 MCU, 1 MB Flash, USB FS"
+U3,1,BMI270,Bosch Sensortec,BMI270,Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm,,Bosch six-axis low-power IMU
+U4,1,TPS2116DRLR,Texas Instruments,TPS2116DRLR,Holter:Texas_DRL0008A,,TI low-IQ two-input power mux with reverse-current blocking
+U5,1,TPS7A2130PDBVR,Texas Instruments,TPS7A2130PDBVR,Package_TO_SOT_SMD:SOT-23-5,,Fixed-output low-noise LDO in SOT-23-5
+U6,1,TPS7A2030PDBVR,Texas Instruments,TPS7A2030PDBVR,Package_TO_SOT_SMD:SOT-23-5,,Fixed-output low-noise LDO in SOT-23-5
+U7,1,TPS7A2033PDBVR,Texas Instruments,TPS7A2033PDBVR,Package_TO_SOT_SMD:SOT-23-5,,Fixed-output low-noise LDO in SOT-23-5
+U8,1,TPS22918DBVR,Texas Instruments,TPS22918DBVR,Package_TO_SOT_SMD:SOT-23-6,,TI controlled-rise-time load switch
+U9,1,MLPF-WB55-01E3,STMicroelectronics,MLPF-WB55-01E3,Holter:MLPF-WB55-01E3,,ST integrated matching and low-pass filter for STM32WB55Cx/Rx
+U10,1,TPD2EUSB30DRTR,Texas Instruments,TPD2EUSB30DRTR,Package_TO_SOT_SMD:SOT-23,,Two-channel low-capacitance USB ESD protection
+Y1,1,32MHz 6pF,NDK,NX2016SA-32M-EXS00A-CS06465,Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm,,Four-pad crystal
+Y2,1,32.768kHz 7pF,NDK,NX3215SA-32.768K-STD-MUA-14,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,,Two-pad crystal
