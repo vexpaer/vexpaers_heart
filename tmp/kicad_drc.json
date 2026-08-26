@@ -1,0 +1,2393 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-26T17:11:03",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf')",
+            "items": [
+                {
+                    "description": "封装 AE1",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 31.0
+                    },
+                    "uuid": "afb93081-1282-4bd7-a551-f938951f7989"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 32.299999,
+                        "y": 30.32
+                    },
+                    "uuid": "351c5932-7487-4a77-a73e-2abdc6fae8b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 45.8,
+                        "y": 31.0
+                    },
+                    "uuid": "30ad403e-1ff5-4b1b-a747-c4b474e82848"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C3",
+                    "pos": {
+                        "x": 45.8,
+                        "y": 33.0
+                    },
+                    "uuid": "fd78dc46-aedc-4876-9bf5-d0f66df14081"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C4",
+                    "pos": {
+                        "x": 32.299999,
+                        "y": 32.52
+                    },
+                    "uuid": "f535a876-210b-4446-9bf4-3a7ca800d9e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C5",
+                    "pos": {
+                        "x": 45.8,
+                        "y": 29.0
+                    },
+                    "uuid": "efb9dee6-243e-4940-9439-2b5f3b82605e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C6",
+                    "pos": {
+                        "x": 32.299999,
+                        "y": 34.72
+                    },
+                    "uuid": "4beda25c-0f9b-4845-82cf-eacc8b09b9a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C7",
+                    "pos": {
+                        "x": 45.8,
+                        "y": 35.0
+                    },
+                    "uuid": "55dbb11e-7585-4b3e-96a5-72605aebec98"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C8",
+                    "pos": {
+                        "x": 32.299999,
+                        "y": 36.92
+                    },
+                    "uuid": "f65cc6ca-11f5-4054-90f9-a6fddac87b54"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C9",
+                    "pos": {
+                        "x": 45.8,
+                        "y": 37.0
+                    },
+                    "uuid": "cc5875cd-8bcc-4e1b-bb2d-52c2a3c6df66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C10",
+                    "pos": {
+                        "x": 29.5,
+                        "y": 41.0
+                    },
+                    "uuid": "c206a192-52ed-4290-956a-1c64f4e7b545"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C11",
+                    "pos": {
+                        "x": 26.2,
+                        "y": 41.0
+                    },
+                    "uuid": "bd39c80a-1d6a-484e-85e6-bdbda40cd2bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C12",
+                    "pos": {
+                        "x": 54.2,
+                        "y": 41.2
+                    },
+                    "uuid": "a24d9a99-a133-42ff-87f8-e82daa6bed63"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C13",
+                    "pos": {
+                        "x": 47.0,
+                        "y": 28.5
+                    },
+                    "uuid": "a88ca27d-88c7-4451-8100-901dbc18012d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C14",
+                    "pos": {
+                        "x": 48.5,
+                        "y": 24.2
+                    },
+                    "uuid": "1285fa48-1962-48e0-a794-86ffca0bc6b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C15",
+                    "pos": {
+                        "x": 48.5,
+                        "y": 26.1
+                    },
+                    "uuid": "257e5e54-cc90-40db-80f9-f88eacae0f88"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C16",
+                    "pos": {
+                        "x": 52.0,
+                        "y": 24.2
+                    },
+                    "uuid": "648121da-19ee-45ce-82eb-1643db253630"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C17",
+                    "pos": {
+                        "x": 55.1,
+                        "y": 24.2
+                    },
+                    "uuid": "bd4e0614-4fa3-4b55-ac07-679850fc9940"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C18",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 43.0
+                    },
+                    "uuid": "3f1b23cb-4312-48f2-bf4b-0955443eb0e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C19",
+                    "pos": {
+                        "x": 58.2,
+                        "y": 24.2
+                    },
+                    "uuid": "e0ff6bae-218f-4a53-93a8-1a44c6f59682"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C20",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 27.0
+                    },
+                    "uuid": "52524fa7-0e54-4ccb-9985-71f827ebd4d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C21",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 27.0
+                    },
+                    "uuid": "cbbc4dfc-e445-44fa-8087-934a6aa16318"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C22",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 41.0
+                    },
+                    "uuid": "ce50d7ea-5df6-4b14-99fa-ae2723e96a2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C23",
+                    "pos": {
+                        "x": 57.6,
+                        "y": 41.0
+                    },
+                    "uuid": "0a3f487a-c561-4966-9c5a-70c72a51a465"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C24",
+                    "pos": {
+                        "x": 57.9,
+                        "y": 35.0
+                    },
+                    "uuid": "c52fdbd4-838d-4984-bd4a-ef3e56eeca4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C25",
+                    "pos": {
+                        "x": 57.9,
+                        "y": 36.5
+                    },
+                    "uuid": "3e5f8ae8-b0d8-45ce-80d3-ce72af5c5545"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C26",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 46.0
+                    },
+                    "uuid": "10902edd-c2f1-4d2d-94e2-bb5670180121"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C27",
+                    "pos": {
+                        "x": 39.0,
+                        "y": 46.0
+                    },
+                    "uuid": "1944d4eb-dbde-4576-8b3a-a7a220a283f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C28",
+                    "pos": {
+                        "x": 68.2,
+                        "y": 46.3
+                    },
+                    "uuid": "90ffc8e2-aea8-43c5-965d-d8ee498f123c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C29",
+                    "pos": {
+                        "x": 72.9,
+                        "y": 38.8
+                    },
+                    "uuid": "1b214d33-2091-4dd7-91e7-810435ea92f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C30",
+                    "pos": {
+                        "x": 64.599999,
+                        "y": 38.8
+                    },
+                    "uuid": "367cd280-98ea-40ef-90d0-07f1b6751ebd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C31",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 48.5
+                    },
+                    "uuid": "1d099be3-8f12-4c76-87f3-6f3fa402ea79"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C32",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 35.0
+                    },
+                    "uuid": "762cb55d-179a-4bab-8228-75fc244e1713"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C33",
+                    "pos": {
+                        "x": 80.5,
+                        "y": 42.0
+                    },
+                    "uuid": "7cac26a9-1f84-4e6c-8d23-907a8810a7fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C34",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 26.5
+                    },
+                    "uuid": "f3709a1a-2e6a-40f9-aac7-82567f90445d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C35",
+                    "pos": {
+                        "x": 68.2,
+                        "y": 22.8
+                    },
+                    "uuid": "44a75a35-9ca1-4627-aadc-7a69d26fd00b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C36",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 25.0
+                    },
+                    "uuid": "a9b7d5c0-a188-44ab-8b71-0075059ba5dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C37",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 24.5
+                    },
+                    "uuid": "6c2b62d7-721a-43f2-b2cc-c95babd37234"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C38",
+                    "pos": {
+                        "x": 84.4,
+                        "y": 45.5
+                    },
+                    "uuid": "4889bb8c-2ee5-4d81-9e71-82ca0586f695"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C39",
+                    "pos": {
+                        "x": 76.0,
+                        "y": 22.0
+                    },
+                    "uuid": "331a3c66-ab40-4f06-9259-ac4a38cb60d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C40",
+                    "pos": {
+                        "x": 79.7,
+                        "y": 22.0
+                    },
+                    "uuid": "45c17a47-c4fb-46d1-b23d-daeab208f9d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C41",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 22.0
+                    },
+                    "uuid": "87773c50-de33-4758-8173-a230f1e0fc4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C42",
+                    "pos": {
+                        "x": 103.1,
+                        "y": 34.1
+                    },
+                    "uuid": "35aebc8f-0d1d-4cbb-a73b-1d7d2b746ea3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C43",
+                    "pos": {
+                        "x": 99.2,
+                        "y": 38.0
+                    },
+                    "uuid": "d2690c6b-70fd-4f90-a867-8f516527468f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C44",
+                    "pos": {
+                        "x": 83.0,
+                        "y": 28.0
+                    },
+                    "uuid": "c99f97bc-1901-460d-bb75-d5fb2e73225a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C45",
+                    "pos": {
+                        "x": 83.0,
+                        "y": 30.5
+                    },
+                    "uuid": "8fd9fb7c-68a2-4347-9197-0f239b521ef5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C46",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 26.0
+                    },
+                    "uuid": "117cfc4b-1ef9-46ae-952b-86db52e8f322"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C47",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 31.0
+                    },
+                    "uuid": "2659ff75-452d-4927-9ef6-94aa4ec8c26f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C48",
+                    "pos": {
+                        "x": 85.8,
+                        "y": 41.8
+                    },
+                    "uuid": "67c56f0d-b9fd-4a4a-8a39-d78fe7e15c19"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C49",
+                    "pos": {
+                        "x": 87.0,
+                        "y": 36.8
+                    },
+                    "uuid": "dbc30585-70d5-46f8-8d87-b8b135f00aa2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C50",
+                    "pos": {
+                        "x": 86.7,
+                        "y": 39.4
+                    },
+                    "uuid": "0289ba99-3894-4c32-b56f-0faedfad0137"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C51",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 25.8
+                    },
+                    "uuid": "6444cd4d-3a58-44fd-8d30-a46f1d8f76e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C52",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 25.8
+                    },
+                    "uuid": "eedc6d50-549c-4c77-ba4b-7c4112e55fa0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C53",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 25.8
+                    },
+                    "uuid": "5800e98c-218e-49ce-80a7-049e43650b3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C54",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 40.0
+                    },
+                    "uuid": "21bca5a8-2808-4b9f-b776-aaf3549aa446"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C55",
+                    "pos": {
+                        "x": 91.5,
+                        "y": 40.0
+                    },
+                    "uuid": "c27d6185-252f-48c4-8d8f-173b82221638"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C56",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 24.0
+                    },
+                    "uuid": "8fb3f4f2-8d81-4c99-a647-efc651a38881"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C57",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 20.5
+                    },
+                    "uuid": "fc31d61c-6a6d-4e20-9af7-21c8cce792ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C58",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 40.0
+                    },
+                    "uuid": "80344324-c7b6-400c-8c77-bdc564dd6064"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C59",
+                    "pos": {
+                        "x": 95.5,
+                        "y": 40.0
+                    },
+                    "uuid": "01290ab8-ad13-45a0-9cf8-307d57ea2030"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C60",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 42.5
+                    },
+                    "uuid": "826bd439-8b35-4be7-b0f8-f039cdb9d33a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C61",
+                    "pos": {
+                        "x": 96.0,
+                        "y": 46.0
+                    },
+                    "uuid": "68562334-a7e9-4603-ac73-eea0bc5e5ea5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C62",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 43.7
+                    },
+                    "uuid": "154965bc-d155-4141-86e2-28c5ea6a8bcd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C63",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 47.6
+                    },
+                    "uuid": "e4657579-c9ed-4641-a2d1-790feafd6df6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C64",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 49.0
+                    },
+                    "uuid": "ebc8c0c3-99a0-4480-9f2f-cb55a8d2bf20"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 C65",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 39.0
+                    },
+                    "uuid": "60bc525b-1c7c-4a15-a2f5-1c9fdd8ca08f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 C66",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 32.5
+                    },
+                    "uuid": "178aff8a-0090-4132-a5ac-965fe8d3ccb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Low-current status LED')",
+            "items": [
+                {
+                    "description": "封装 D16",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 22.5
+                    },
+                    "uuid": "956e21be-8405-4f10-a419-705cafab2a64"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resettable fuse')",
+            "items": [
+                {
+                    "description": "封装 F1",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 42.0
+                    },
+                    "uuid": "bf99c39e-7320-44d6-b1ec-c99f32170b8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resettable fuse')",
+            "items": [
+                {
+                    "description": "封装 F2",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 21.2
+                    },
+                    "uuid": "74b2e9e7-8cc0-404b-adf6-91a15c7733f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')",
+            "items": [
+                {
+                    "description": "封装 FB1",
+                    "pos": {
+                        "x": 84.3,
+                        "y": 37.8
+                    },
+                    "uuid": "0affa631-48c1-4ecd-81eb-387ca4e9de47"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.molex.com/en-us/products/part-detail/781715006')",
+            "items": [
+                {
+                    "description": "封装 J1",
+                    "pos": {
+                        "x": 23.4,
+                        "y": 35.0
+                    },
+                    "uuid": "dfbf65ed-7ced-4098-80cf-ba7810c45f7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Protected 1S LiPo connector')",
+            "items": [
+                {
+                    "description": "封装 J2",
+                    "pos": {
+                        "x": 62.0,
+                        "y": 46.5
+                    },
+                    "uuid": "4913ed0c-9e4a-45a4-9963-78c1d24077ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 J3",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 20.3
+                    },
+                    "uuid": "c7457aea-7f4e-4272-8b40-f0622a520c8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 J3",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 20.3
+                    },
+                    "uuid": "c7457aea-7f4e-4272-8b40-f0622a520c8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 J5",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 23.8
+                    },
+                    "uuid": "3076b3fb-c895-4bad-a53b-e165282bcac1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 J5",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 23.8
+                    },
+                    "uuid": "3076b3fb-c895-4bad-a53b-e165282bcac1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')",
+            "items": [
+                {
+                    "description": "封装 L1",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 27.8
+                    },
+                    "uuid": "c44d9792-2531-4c31-92c4-fb0dd1902781"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')",
+            "items": [
+                {
+                    "description": "封装 L2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 30.5
+                    },
+                    "uuid": "26fc4a3b-09d8-41ac-a239-9e42e5e4c16c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'P-channel high-side reverse-polarity protection MOSFET')",
+            "items": [
+                {
+                    "description": "封装 Q1",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 42.0
+                    },
+                    "uuid": "5e046b6e-f578-4805-9789-bc2361df07ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 30.8
+                    },
+                    "uuid": "397ba029-dd37-4860-85c2-7bd4b5573c11"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 31.6
+                    },
+                    "uuid": "703df9b3-4a46-4805-a31f-9d7cdb6952c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R3",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 33.2
+                    },
+                    "uuid": "a9d3ec1e-4503-4e0b-9db7-8d66c7d08ccf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R4",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 33.0
+                    },
+                    "uuid": "5a467448-404a-4cfa-a380-9bf51bd7ba31"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R5",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 30.0
+                    },
+                    "uuid": "573d05ae-1c56-40ee-a47c-11c89f5664b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R6",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 35.2
+                    },
+                    "uuid": "487fc7d8-0a17-4a1a-a229-b30169774b6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R7",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 34.8
+                    },
+                    "uuid": "7da0365f-03a5-47d7-9239-c3c3aa742e46"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R8",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 37.4
+                    },
+                    "uuid": "3dfe9a84-623a-42ba-a858-c25601300c48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R9",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 36.4
+                    },
+                    "uuid": "6de4a19c-7aa1-4f7f-b7d3-9ea31cdc4ec2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R10",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 40.7
+                    },
+                    "uuid": "95bb697e-bb85-43e1-a735-47b0cd915d74"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R11",
+                    "pos": {
+                        "x": 44.7,
+                        "y": 40.7
+                    },
+                    "uuid": "e02a92ec-95ef-4d9c-8637-a8b12b6cf0db"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R12",
+                    "pos": {
+                        "x": 23.0,
+                        "y": 41.0
+                    },
+                    "uuid": "fd3735ce-d5cc-496e-9b97-0515a9062892"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R13",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 40.7
+                    },
+                    "uuid": "c5f8d002-47dd-44af-8c5e-747dd26d425c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R14",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 41.2
+                    },
+                    "uuid": "fbaeeade-9e8b-411c-850e-5f35c57d7fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R15",
+                    "pos": {
+                        "x": 59.2,
+                        "y": 39.2
+                    },
+                    "uuid": "1b136faf-3f5e-491e-8dfc-253f6603802d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R16",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 35.0
+                    },
+                    "uuid": "6a7f7159-82c8-4ba1-b413-12eed5887505"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R17",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 37.4
+                    },
+                    "uuid": "9b0c0b8b-9d71-4e40-8b31-b13b193e8151"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R18",
+                    "pos": {
+                        "x": 36.2,
+                        "y": 46.0
+                    },
+                    "uuid": "85517697-a7de-435c-a20c-02e241854f48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R19",
+                    "pos": {
+                        "x": 41.2,
+                        "y": 46.0
+                    },
+                    "uuid": "bac9524e-9f94-4cb7-ba5c-0400efe22698"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R20",
+                    "pos": {
+                        "x": 65.8,
+                        "y": 46.5
+                    },
+                    "uuid": "e35c1652-35d9-4b9e-a011-cbca9151c9a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R21",
+                    "pos": {
+                        "x": 98.8,
+                        "y": 25.5
+                    },
+                    "uuid": "43e1ad68-647f-4d49-881d-c182bfae34aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R22",
+                    "pos": {
+                        "x": 97.2,
+                        "y": 25.5
+                    },
+                    "uuid": "755b6a3b-f34a-4fb0-8f55-a9a8a2a0d950"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R23",
+                    "pos": {
+                        "x": 68.0,
+                        "y": 38.8
+                    },
+                    "uuid": "f049c4b6-2f63-40d2-a5b7-7d02e8d84dc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R24",
+                    "pos": {
+                        "x": 70.2,
+                        "y": 38.8
+                    },
+                    "uuid": "f9976fd2-8ec8-444d-bffb-9f36ffe3481c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R25",
+                    "pos": {
+                        "x": 72.7,
+                        "y": 45.2
+                    },
+                    "uuid": "4032aee4-615f-4d46-bb13-6a1717b76794"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R26",
+                    "pos": {
+                        "x": 77.8,
+                        "y": 45.5
+                    },
+                    "uuid": "e3ffc59c-9314-4137-9088-3b6a70659708"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R27",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 45.5
+                    },
+                    "uuid": "9359f684-b1e5-4517-883f-1e95606a2d19"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R28",
+                    "pos": {
+                        "x": 82.2,
+                        "y": 45.5
+                    },
+                    "uuid": "d1fdc12c-472c-4685-9f8e-1d2f14fe9714"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R29",
+                    "pos": {
+                        "x": 78.4,
+                        "y": 36.5
+                    },
+                    "uuid": "9713edec-662d-4686-a585-6b3071ea33b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R30",
+                    "pos": {
+                        "x": 79.6,
+                        "y": 36.5
+                    },
+                    "uuid": "697e5160-a079-457b-b1a5-a2f1f068bf67"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R31",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 29.5
+                    },
+                    "uuid": "3d74679d-c037-4d74-ae7d-de2d8b4d5897"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R32",
+                    "pos": {
+                        "x": 76.3,
+                        "y": 36.5
+                    },
+                    "uuid": "1495e638-c934-4a9d-9c32-d3293a79ea75"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R33",
+                    "pos": {
+                        "x": 83.7,
+                        "y": 41.8
+                    },
+                    "uuid": "e045412e-99e3-4d36-a8b6-cc1d75014522"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R34",
+                    "pos": {
+                        "x": 77.5,
+                        "y": 31.0
+                    },
+                    "uuid": "d101802b-008f-47f0-ae6b-df2355a67055"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R35",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 29.0
+                    },
+                    "uuid": "3bfffb20-d62d-4e10-bec6-d8ac29572eaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R36",
+                    "pos": {
+                        "x": 80.7,
+                        "y": 29.0
+                    },
+                    "uuid": "51493ae0-763d-4a84-a50b-de0e305b4713"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R37",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 22.5
+                    },
+                    "uuid": "157deb69-f959-4e84-bf98-841478720393"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R38",
+                    "pos": {
+                        "x": 84.8,
+                        "y": 33.2
+                    },
+                    "uuid": "b18d9da5-948e-4af4-a9c3-3350869c8c02"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R39",
+                    "pos": {
+                        "x": 86.2,
+                        "y": 34.5
+                    },
+                    "uuid": "b9758b95-d297-48cb-8576-569429be6d32"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R40",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 46.2
+                    },
+                    "uuid": "d016c0e3-9b73-4e20-a61d-a8a84a0cd6eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R41",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 43.3
+                    },
+                    "uuid": "c65e30dd-0f04-4332-ba02-ed2e5839d2a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R42",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 41.7
+                    },
+                    "uuid": "076f073e-b3b8-40f6-8501-d784f2aaf702"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R43",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 39.7
+                    },
+                    "uuid": "a8b886fd-6aea-40ad-a151-2f624bf6367b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R44",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 37.5
+                    },
+                    "uuid": "91589459-a37c-4110-b602-c08179788d82"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R45",
+                    "pos": {
+                        "x": 103.8,
+                        "y": 44.7
+                    },
+                    "uuid": "62528339-24f7-4080-9058-f0dc30ec0a2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R46",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 43.3
+                    },
+                    "uuid": "d3d6baa5-5915-454a-80c5-4bbfee98c7c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R47",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 41.7
+                    },
+                    "uuid": "2afe6be5-1e01-4620-86ca-b23578651e3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R48",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 49.0
+                    },
+                    "uuid": "90d3a6cb-01c2-4b32-a44a-f4d92cd4829c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R49",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 49.0
+                    },
+                    "uuid": "2f0b2597-ddf3-43d1-ac8e-ed1b96f52381"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R50",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 49.0
+                    },
+                    "uuid": "299c70cb-c8d9-42be-ac25-45af6f6687f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R51",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 39.5
+                    },
+                    "uuid": "091927f8-b42c-426f-a71a-fb6888c6a6dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R52",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 29.0
+                    },
+                    "uuid": "520f7307-8383-4b32-a3ce-528b0f42190e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R53",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 30.4
+                    },
+                    "uuid": "7406f8de-8402-4f7d-afba-75c73cb703a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R54",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 33.2
+                    },
+                    "uuid": "a78b562d-de39-475f-ac24-893eeef9d23a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R55",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 31.8
+                    },
+                    "uuid": "928ff9bf-0130-4e38-bca5-3e166baa0233"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 TP1",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 32.5
+                    },
+                    "uuid": "e2e7ac35-72a2-405c-b11e-7b3623ec83c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 TP1",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 32.5
+                    },
+                    "uuid": "e2e7ac35-72a2-405c-b11e-7b3623ec83c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 TP2",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 45.5
+                    },
+                    "uuid": "8469ef4e-0e2c-4bf9-bd7f-764e9999aa24"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 TP2",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 45.5
+                    },
+                    "uuid": "8469ef4e-0e2c-4bf9-bd7f-764e9999aa24"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 TP3",
+                    "pos": {
+                        "x": 77.5,
+                        "y": 29.0
+                    },
+                    "uuid": "184631fd-6923-48a4-8d98-60a1e9ca370f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 TP3",
+                    "pos": {
+                        "x": 77.5,
+                        "y": 29.0
+                    },
+                    "uuid": "184631fd-6923-48a4-8d98-60a1e9ca370f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 TP4",
+                    "pos": {
+                        "x": 75.0,
+                        "y": 47.0
+                    },
+                    "uuid": "c12d295a-2fda-4082-a5f3-3d95eef3fe3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 TP4",
+                    "pos": {
+                        "x": 75.0,
+                        "y": 47.0
+                    },
+                    "uuid": "c12d295a-2fda-4082-a5f3-3d95eef3fe3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 TP5",
+                    "pos": {
+                        "x": 57.6,
+                        "y": 31.2
+                    },
+                    "uuid": "133fb57c-e479-47fd-9fd7-02725257a446"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 TP5",
+                    "pos": {
+                        "x": 57.6,
+                        "y": 31.2
+                    },
+                    "uuid": "133fb57c-e479-47fd-9fd7-02725257a446"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+            "items": [
+                {
+                    "description": "封装 TP6",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 23.8
+                    },
+                    "uuid": "8715a26a-a02a-4820-b898-510f43508abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "原理图中缺少符号字段 'Manufacturer'",
+            "items": [
+                {
+                    "description": "封装 TP6",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 23.8
+                    },
+                    "uuid": "8715a26a-a02a-4820-b898-510f43508abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/ads1294r.pdf')",
+            "items": [
+                {
+                    "description": "封装 U1",
+                    "pos": {
+                        "x": 52.0,
+                        "y": 35.0
+                    },
+                    "uuid": "9fdcc433-8c61-48ad-9566-6b0dcaa8b373"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf')",
+            "items": [
+                {
+                    "description": "封装 U2",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 32.0
+                    },
+                    "uuid": "8543b6b1-943c-4a23-bba0-dad3d4d3d2cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps2116.pdf')",
+            "items": [
+                {
+                    "description": "封装 U4",
+                    "pos": {
+                        "x": 70.5,
+                        "y": 42.0
+                    },
+                    "uuid": "3296a3a6-2872-41c2-a042-336432f7f6c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a21.pdf')",
+            "items": [
+                {
+                    "description": "封装 U5",
+                    "pos": {
+                        "x": 77.5,
+                        "y": 42.0
+                    },
+                    "uuid": "b06ac5e6-0951-420d-b762-901a205228f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a20.pdf')",
+            "items": [
+                {
+                    "description": "封装 U6",
+                    "pos": {
+                        "x": 64.3,
+                        "y": 22.8
+                    },
+                    "uuid": "2864415f-2dbe-4946-b139-441a6668036b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a20.pdf')",
+            "items": [
+                {
+                    "description": "封装 U7",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 25.0
+                    },
+                    "uuid": "7807302f-23d9-472a-bf97-2c6b5b19427a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps22918.pdf')",
+            "items": [
+                {
+                    "description": "封装 U8",
+                    "pos": {
+                        "x": 100.8,
+                        "y": 46.5
+                    },
+                    "uuid": "6642a787-09b8-49cf-b49d-f32175fb2077"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf')",
+            "items": [
+                {
+                    "description": "封装 U9",
+                    "pos": {
+                        "x": 97.3,
+                        "y": 38.5
+                    },
+                    "uuid": "c440c386-79d4-42c1-9ff5-bbd137c82051"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf')",
+            "items": [
+                {
+                    "description": "封装 U10",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 20.7
+                    },
+                    "uuid": "c6afca02-ac15-4372-965f-4c4f58d5561f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Four-pad crystal')",
+            "items": [
+                {
+                    "description": "封装 Y1",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 35.0
+                    },
+                    "uuid": "85ebcb12-7361-4689-af34-747a7454d9bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "heart_v2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

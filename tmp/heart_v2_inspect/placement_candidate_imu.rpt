@@ -1,0 +1,1935 @@
+** Drc report for placement_candidate_imu.kicad_pcb **
+** Created on 2026-08-25T17:44:44 **
+** Report includes: Errors, Warnings **
+
+** Found 105 DRC violations **
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(85.7500 mm, 31.7375 mm): F.Cu 上 U3 的焊盘 10 [unconnected-(U3-OCSB-Pad10)]
+    @(85.0000 mm, 30.7500 mm): F.Cu 上 Y2 的焊盘 2 [/LSE_OUT]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 28.8000 mm): F.Cu 上 U2 的焊盘 1 [/RTC_HOLD]
+    @(90.1125 mm, 29.2000 mm): F.Cu 上 U2 的焊盘 2 [unconnected-(U2-PC13-Pad2)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(85.2500 mm, 31.7375 mm): F.Cu 上 U3 的焊盘 11 [unconnected-(U3-OSDO-Pad11)]
+    @(85.0000 mm, 30.7500 mm): F.Cu 上 Y2 的焊盘 2 [/LSE_OUT]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.0700 mm)
+    Local override; error
+    @(84.9875 mm, 32.5000 mm): F.Cu 上 U3 的焊盘 12 [/3V0_D]
+    @(84.3100 mm, 32.8000 mm): F.Cu 上 R38 的焊盘 2 [/IMU_SCL]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1932 mm)
+    Local override; error
+    @(90.1125 mm, 28.8000 mm): F.Cu 上 U2 的焊盘 1 [/RTC_HOLD]
+    @(90.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 68 [/3V0_D]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 29.2000 mm): F.Cu 上 U2 的焊盘 2 [unconnected-(U2-PC13-Pad2)]
+    @(90.1125 mm, 29.6000 mm): F.Cu 上 U2 的焊盘 3 [/LSE_IN]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 29.6000 mm): F.Cu 上 U2 的焊盘 3 [/LSE_IN]
+    @(90.1125 mm, 30.0000 mm): F.Cu 上 U2 的焊盘 4 [/LSE_OUT]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 30.0000 mm): F.Cu 上 U2 的焊盘 4 [/LSE_OUT]
+    @(90.1125 mm, 30.4000 mm): F.Cu 上 U2 的焊盘 5 [/BOOT0]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 30.4000 mm): F.Cu 上 U2 的焊盘 5 [/BOOT0]
+    @(90.1125 mm, 30.8000 mm): F.Cu 上 U2 的焊盘 6 [/IMU_SCL]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 30.8000 mm): F.Cu 上 U2 的焊盘 6 [/IMU_SCL]
+    @(90.1125 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 7 [/IMU_SDA]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 7 [/IMU_SDA]
+    @(90.1125 mm, 31.6000 mm): F.Cu 上 U2 的焊盘 8 [/NRST]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 31.6000 mm): F.Cu 上 U2 的焊盘 8 [/NRST]
+    @(90.1125 mm, 32.0000 mm): F.Cu 上 U2 的焊盘 9 [/ADS_START]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 32.0000 mm): F.Cu 上 U2 的焊盘 9 [/ADS_START]
+    @(90.1125 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 10 [/ADS_DRDY]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 10 [/ADS_DRDY]
+    @(90.1125 mm, 32.8000 mm): F.Cu 上 U2 的焊盘 11 [/SD_DETECT]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 32.8000 mm): F.Cu 上 U2 的焊盘 11 [/SD_DETECT]
+    @(90.1125 mm, 33.2000 mm): F.Cu 上 U2 的焊盘 12 [/SD_PWR_EN]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 33.2000 mm): F.Cu 上 U2 的焊盘 12 [/SD_PWR_EN]
+    @(90.1125 mm, 33.6000 mm): F.Cu 上 U2 的焊盘 13 [/MCU_VDDA]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 34.0000 mm): F.Cu 上 U2 的焊盘 14 [/MCU_VDDA]
+    @(90.1125 mm, 34.4000 mm): F.Cu 上 U2 的焊盘 15 [/BAT_ADC]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 34.4000 mm): F.Cu 上 U2 的焊盘 15 [/BAT_ADC]
+    @(90.1125 mm, 34.8000 mm): F.Cu 上 U2 的焊盘 16 [unconnected-(U2-PA1-Pad16)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.1125 mm, 34.8000 mm): F.Cu 上 U2 的焊盘 16 [unconnected-(U2-PA1-Pad16)]
+    @(90.1125 mm, 35.2000 mm): F.Cu 上 U2 的焊盘 17 [unconnected-(U2-PA2-Pad17)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1932 mm)
+    Local override; error
+    @(90.1125 mm, 35.2000 mm): F.Cu 上 U2 的焊盘 17 [unconnected-(U2-PA2-Pad17)]
+    @(90.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 18 [unconnected-(U2-PA3-Pad18)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(90.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 18 [unconnected-(U2-PA3-Pad18)]
+    @(91.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 19 [/ADS_CS]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(91.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 19 [/ADS_CS]
+    @(91.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 20 [/ADS_SCLK]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(91.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 20 [/ADS_SCLK]
+    @(92.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 21 [/ADS_MISO]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(92.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 21 [/ADS_MISO]
+    @(92.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 22 [/ADS_MOSI]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(92.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 22 [/ADS_MOSI]
+    @(92.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 23 [unconnected-(U2-PA8-Pad23)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(92.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 23 [unconnected-(U2-PA8-Pad23)]
+    @(93.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 24 [/USB_VBUS_SENSE]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(93.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 24 [/USB_VBUS_SENSE]
+    @(93.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 25 [/IMU_INT1]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(93.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 25 [/IMU_INT1]
+    @(94.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 26 [/IMU_INT2]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(94.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 26 [/IMU_INT2]
+    @(94.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 27 [unconnected-(U2-PB2-Pad27)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(94.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 27 [unconnected-(U2-PB2-Pad27)]
+    @(94.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 28 [unconnected-(U2-PB10-Pad28)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(94.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 28 [unconnected-(U2-PB10-Pad28)]
+    @(95.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 29 [unconnected-(U2-PB11-Pad29)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(95.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 29 [unconnected-(U2-PB11-Pad29)]
+    @(95.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 30 [/3V0_D]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(95.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 30 [/3V0_D]
+    @(96.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 31 [/RF_MCU]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(96.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 31 [/RF_MCU]
+    @(96.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 32 [/GND]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(96.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 32 [/GND]
+    @(96.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 33 [/3V0_D]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(96.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 33 [/3V0_D]
+    @(97.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 34 [/HSE_OUT]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1932 mm)
+    Local override; error
+    @(97.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 34 [/HSE_OUT]
+    @(97.8875 mm, 35.2000 mm): F.Cu 上 U2 的焊盘 35 [/HSE_IN]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 35.2000 mm): F.Cu 上 U2 的焊盘 35 [/HSE_IN]
+    @(97.8875 mm, 34.8000 mm): F.Cu 上 U2 的焊盘 36 [unconnected-(U2-AT0-Pad36)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 34.8000 mm): F.Cu 上 U2 的焊盘 36 [unconnected-(U2-AT0-Pad36)]
+    @(97.8875 mm, 34.4000 mm): F.Cu 上 U2 的焊盘 37 [unconnected-(U2-AT1-Pad37)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 34.4000 mm): F.Cu 上 U2 的焊盘 37 [unconnected-(U2-AT1-Pad37)]
+    @(97.8875 mm, 34.0000 mm): F.Cu 上 U2 的焊盘 38 [/ADS_PWDN]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 34.0000 mm): F.Cu 上 U2 的焊盘 38 [/ADS_PWDN]
+    @(97.8875 mm, 33.6000 mm): F.Cu 上 U2 的焊盘 39 [/ADS_RESET]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 33.6000 mm): F.Cu 上 U2 的焊盘 39 [/ADS_RESET]
+    @(97.8875 mm, 33.2000 mm): F.Cu 上 U2 的焊盘 40 [unconnected-(U2-PE4-Pad40)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 33.2000 mm): F.Cu 上 U2 的焊盘 40 [unconnected-(U2-PE4-Pad40)]
+    @(97.8875 mm, 32.8000 mm): F.Cu 上 U2 的焊盘 41 [/SMPS_FB]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 32.8000 mm): F.Cu 上 U2 的焊盘 41 [/SMPS_FB]
+    @(97.8875 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 42 [/GND]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 42 [/GND]
+    @(97.8875 mm, 32.0000 mm): F.Cu 上 U2 的焊盘 43 [/SMPS_SW]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 32.0000 mm): F.Cu 上 U2 的焊盘 43 [/SMPS_SW]
+    @(97.8875 mm, 31.6000 mm): F.Cu 上 U2 的焊盘 44 [/SMPS_IN]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 31.6000 mm): F.Cu 上 U2 的焊盘 44 [/SMPS_IN]
+    @(97.8875 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 45 [/3V0_D]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 45 [/3V0_D]
+    @(97.8875 mm, 30.8000 mm): F.Cu 上 U2 的焊盘 46 [unconnected-(U2-PB12-Pad46)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 30.8000 mm): F.Cu 上 U2 的焊盘 46 [unconnected-(U2-PB12-Pad46)]
+    @(97.8875 mm, 30.4000 mm): F.Cu 上 U2 的焊盘 47 [/SD_SCK_MCU]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 30.4000 mm): F.Cu 上 U2 的焊盘 47 [/SD_SCK_MCU]
+    @(97.8875 mm, 30.0000 mm): F.Cu 上 U2 的焊盘 48 [/SD_MISO_MCU]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 30.0000 mm): F.Cu 上 U2 的焊盘 48 [/SD_MISO_MCU]
+    @(97.8875 mm, 29.6000 mm): F.Cu 上 U2 的焊盘 49 [/SD_MOSI_MCU]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 29.6000 mm): F.Cu 上 U2 的焊盘 49 [/SD_MOSI_MCU]
+    @(97.8875 mm, 29.2000 mm): F.Cu 上 U2 的焊盘 50 [unconnected-(U2-PC6-Pad50)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.8875 mm, 29.2000 mm): F.Cu 上 U2 的焊盘 50 [unconnected-(U2-PC6-Pad50)]
+    @(97.8875 mm, 28.8000 mm): F.Cu 上 U2 的焊盘 51 [/SD_CS_MCU]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1932 mm)
+    Local override; error
+    @(97.8875 mm, 28.8000 mm): F.Cu 上 U2 的焊盘 51 [/SD_CS_MCU]
+    @(97.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 52 [/USB_DM]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(97.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 52 [/USB_DM]
+    @(96.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 53 [/USB_DP]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(96.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 53 [/USB_DP]
+    @(96.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 54 [/SWDIO]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(96.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 54 [/SWDIO]
+    @(96.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 55 [/3V3_USB]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(96.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 55 [/3V3_USB]
+    @(95.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 56 [/SWCLK]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(95.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 56 [/SWCLK]
+    @(95.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 57 [unconnected-(U2-PA15-Pad57)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(95.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 57 [unconnected-(U2-PA15-Pad57)]
+    @(94.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 58 [unconnected-(U2-PC10-Pad58)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(94.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 58 [unconnected-(U2-PC10-Pad58)]
+    @(94.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 59 [unconnected-(U2-PC11-Pad59)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(94.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 59 [unconnected-(U2-PC11-Pad59)]
+    @(94.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 60 [unconnected-(U2-PC12-Pad60)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(94.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 60 [unconnected-(U2-PC12-Pad60)]
+    @(93.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 61 [unconnected-(U2-PD0-Pad61)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(93.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 61 [unconnected-(U2-PD0-Pad61)]
+    @(93.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 62 [unconnected-(U2-PD1-Pad62)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(93.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 62 [unconnected-(U2-PD1-Pad62)]
+    @(92.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 63 [/SWO]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(92.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 63 [/SWO]
+    @(92.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 64 [unconnected-(U2-PB4-Pad64)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(92.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 64 [unconnected-(U2-PB4-Pad64)]
+    @(92.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 65 [/LED_STATUS_N]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(92.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 65 [/LED_STATUS_N]
+    @(91.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 66 [unconnected-(U2-PB6-Pad66)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(91.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 66 [unconnected-(U2-PB6-Pad66)]
+    @(91.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 67 [unconnected-(U2-PB7-Pad67)]
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(91.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 67 [unconnected-(U2-PB7-Pad67)]
+    @(90.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 68 [/3V0_D]
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(86.0000 mm, 33.0000 mm): 封装 U3
+    @(85.0000 mm, 29.5000 mm): 封装 Y2
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(86.0000 mm, 33.0000 mm): 封装 U3
+    @(83.8000 mm, 32.8000 mm): 封装 R38
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(86.0000 mm, 33.0000 mm): 封装 U3
+    @(83.8000 mm, 34.0000 mm): 封装 R39
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(86.0000 mm, 33.0000 mm): 封装 U3
+    @(88.0000 mm, 32.0000 mm): 封装 R33
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(91.0500 mm, 29.0500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(91.0500 mm, 30.5250 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(91.0500 mm, 32.0000 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(91.0500 mm, 33.4750 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(91.0500 mm, 34.9500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(92.5250 mm, 29.0500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(92.5250 mm, 30.5250 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(92.5250 mm, 32.0000 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(92.5250 mm, 33.4750 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(92.5250 mm, 34.9500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(94.0000 mm, 29.0500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(94.0000 mm, 30.5250 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(94.0000 mm, 32.0000 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(94.0000 mm, 33.4750 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(94.0000 mm, 34.9500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(95.4750 mm, 29.0500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(95.4750 mm, 30.5250 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(95.4750 mm, 32.0000 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(95.4750 mm, 33.4750 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(95.4750 mm, 34.9500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(96.9500 mm, 29.0500 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(96.9500 mm, 30.5250 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(96.9500 mm, 32.0000 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(96.9500 mm, 33.4750 mm): U2 的PTH 焊盘 69 [/GND]
+[drill_out_of_range]: 孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)
+    Rule: 电路板配置约束; error
+    @(96.9500 mm, 34.9500 mm): U2 的PTH 焊盘 69 [/GND]
+[lib_footprint_issues]: 当前配置中不包含封装库 'Holter'
+    Local override; warning
+    @(70.5000 mm, 42.0000 mm): 封装 U4
+[lib_footprint_issues]: 当前配置中不包含封装库 'Holter'
+    Local override; warning
+    @(52.0000 mm, 35.0000 mm): 封装 U1
+[lib_footprint_issues]: 当前配置中不包含封装库 'Holter'
+    Local override; warning
+    @(97.3000 mm, 38.5000 mm): 封装 U9
+[lib_footprint_issues]: 当前配置中不包含封装库 'Holter'
+    Local override; warning
+    @(23.4000 mm, 35.0000 mm): 封装 J1
+[lib_footprint_issues]: 当前配置中不包含封装库 'Holter'
+    Local override; warning
+    @(86.0000 mm, 47.5000 mm): 封装 J5
+[lib_footprint_issues]: 当前配置中不包含封装库 'Holter'
+    Local override; warning
+    @(94.0000 mm, 22.3000 mm): 封装 J3
+
+** Found 382 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D8 [/3V0_D]
+    @(54.8000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C8 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D8 [/3V0_D]
+    @(57.1250 mm, 35.0000 mm): F.Cu 上 C24 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C8 [/3V0_D]
+    @(54.8000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B8 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.4200 mm, 36.5000 mm): F.Cu 上 C25 的焊盘 1 [/3V0_D]
+    @(57.1250 mm, 35.0000 mm): F.Cu 上 C24 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.7000 mm, 45.7100 mm): F.Cu 上 R25 的焊盘 1 [/3V0_D]
+    @(57.4200 mm, 36.5000 mm): F.Cu 上 C25 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.4000 mm, 37.0100 mm): F.Cu 上 R29 的焊盘 1 [/3V0_D]
+    @(79.6000 mm, 37.0100 mm): F.Cu 上 R30 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.4000 mm, 37.0100 mm): F.Cu 上 R29 的焊盘 1 [/3V0_D]
+    @(76.0000 mm, 35.9900 mm): F.Cu 上 R32 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.6375 mm, 41.0500 mm): F.Cu 上 U5 的焊盘 5 [/3V0_D]
+    @(80.5000 mm, 42.7750 mm): F.Cu 上 C33 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.6375 mm, 41.0500 mm): F.Cu 上 U5 的焊盘 5 [/3V0_D]
+    @(78.4000 mm, 37.0100 mm): F.Cu 上 R29 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.6375 mm, 41.0500 mm): F.Cu 上 U5 的焊盘 5 [/3V0_D]
+    @(72.7000 mm, 45.7100 mm): F.Cu 上 R25 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.2900 mm, 32.8000 mm): F.Cu 上 R38 的焊盘 1 [/3V0_D]
+    @(83.2900 mm, 34.0000 mm): F.Cu 上 R39 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.2900 mm, 32.8000 mm): F.Cu 上 R38 的焊盘 1 [/3V0_D]
+    @(84.9875 mm, 32.5000 mm): F.Cu 上 U3 的焊盘 12 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.2900 mm, 34.0000 mm): F.Cu 上 R39 的焊盘 1 [/3V0_D]
+    @(83.5125 mm, 37.8000 mm): F.Cu 上 FB1 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.4600 mm, 47.5000 mm): B.Cu 上 J5 的焊盘 1 [/3V0_D]
+    @(80.5000 mm, 42.7750 mm): F.Cu 上 C33 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.5125 mm, 37.8000 mm): F.Cu 上 FB1 的焊盘 1 [/3V0_D]
+    @(79.6000 mm, 37.0100 mm): F.Cu 上 R30 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.5125 mm, 37.8000 mm): F.Cu 上 FB1 的焊盘 1 [/3V0_D]
+    @(89.0200 mm, 40.0000 mm): F.Cu 上 C54 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.9875 mm, 32.5000 mm): F.Cu 上 U3 的焊盘 12 [/3V0_D]
+    @(86.7500 mm, 31.7375 mm): F.Cu 上 U3 的焊盘 8 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.0125 mm, 33.5000 mm): F.Cu 上 U3 的焊盘 5 [/3V0_D]
+    @(88.0000 mm, 32.5100 mm): F.Cu 上 R33 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.0000 mm, 32.5100 mm): F.Cu 上 R33 的焊盘 1 [/3V0_D]
+    @(86.7500 mm, 31.7375 mm): F.Cu 上 U3 的焊盘 8 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.0000 mm, 32.5100 mm): F.Cu 上 R33 的焊盘 1 [/3V0_D]
+    @(90.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 68 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.0200 mm, 40.0000 mm): F.Cu 上 C54 的焊盘 1 [/3V0_D]
+    @(91.0200 mm, 40.0000 mm): F.Cu 上 C55 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.0200 mm, 25.8000 mm): F.Cu 上 C51 的焊盘 1 [/3V0_D]
+    @(92.0200 mm, 25.8000 mm): F.Cu 上 C52 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.0200 mm, 25.8000 mm): F.Cu 上 C51 的焊盘 1 [/3V0_D]
+    @(88.0500 mm, 21.8000 mm): F.Cu 上 D15 的焊盘 2 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 68 [/3V0_D]
+    @(90.0200 mm, 25.8000 mm): F.Cu 上 C51 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.0200 mm, 40.0000 mm): F.Cu 上 C55 的焊盘 1 [/3V0_D]
+    @(93.0200 mm, 40.0000 mm): F.Cu 上 C58 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.0200 mm, 25.8000 mm): F.Cu 上 C52 的焊盘 1 [/3V0_D]
+    @(94.0200 mm, 25.8000 mm): F.Cu 上 C53 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.0200 mm, 40.0000 mm): F.Cu 上 C58 的焊盘 1 [/3V0_D]
+    @(95.0200 mm, 40.0000 mm): F.Cu 上 C59 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.2250 mm, 42.5000 mm): F.Cu 上 C60 的焊盘 1 [/3V0_D]
+    @(93.0200 mm, 40.0000 mm): F.Cu 上 C58 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.2250 mm, 42.5000 mm): F.Cu 上 C60 的焊盘 1 [/3V0_D]
+    @(96.2250 mm, 43.7000 mm): F.Cu 上 C62 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 30 [/3V0_D]
+    @(95.0200 mm, 40.0000 mm): F.Cu 上 C59 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 33 [/3V0_D]
+    @(95.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 30 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.8000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 33 [/3V0_D]
+    @(97.8875 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 45 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.6625 mm, 45.5500 mm): F.Cu 上 U8 的焊盘 1 [/3V0_D]
+    @(96.2250 mm, 43.7000 mm): F.Cu 上 C62 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.7250 mm, 24.0000 mm): F.Cu 上 C57 的焊盘 1 [/3V0_D]
+    @(102.2900 mm, 22.5000 mm): F.Cu 上 R37 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.7250 mm, 24.0000 mm): F.Cu 上 C57 的焊盘 1 [/3V0_D]
+    @(102.7875 mm, 27.8000 mm): F.Cu 上 L1 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.7875 mm, 27.8000 mm): F.Cu 上 L1 的焊盘 1 [/3V0_D]
+    @(97.8875 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 45 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.4900 mm, 49.0000 mm): F.Cu 上 R50 的焊盘 1 [/3V0_D]
+    @(99.6625 mm, 45.5500 mm): F.Cu 上 U8 的焊盘 1 [/3V0_D]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.1750 mm, 41.0000 mm): F.Cu 上 R12 的焊盘 2 [/GND]
+    @(26.9750 mm, 41.0000 mm): F.Cu 上 C11 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.9750 mm, 41.0000 mm): F.Cu 上 C11 的焊盘 2 [/GND]
+    @(27.2000 mm, 37.6500 mm): F.Cu 上 D4 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 30.6500 mm): F.Cu 上 D1 的焊盘 2 [/GND]
+    @(27.2000 mm, 32.4000 mm): F.Cu 上 D2 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 34.1500 mm): F.Cu 上 D3 的焊盘 2 [/GND]
+    @(27.2000 mm, 32.4000 mm): F.Cu 上 D2 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 35.9000 mm): F.Cu 上 D5 的焊盘 2 [/GND]
+    @(27.2000 mm, 34.1500 mm): F.Cu 上 D3 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 35.9000 mm): F.Cu 上 D5 的焊盘 2 [/GND]
+    @(27.2000 mm, 37.6500 mm): F.Cu 上 D4 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.9800 mm, 41.0000 mm): F.Cu 上 C10 的焊盘 2 [/GND]
+    @(26.9750 mm, 41.0000 mm): F.Cu 上 C11 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 29.8400 mm): F.Cu 上 C1 的焊盘 2 [/GND]
+    @(32.3000 mm, 32.0400 mm): F.Cu 上 C4 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 34.2400 mm): F.Cu 上 C6 的焊盘 2 [/GND]
+    @(32.3000 mm, 32.0400 mm): F.Cu 上 C4 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 34.2400 mm): F.Cu 上 C6 的焊盘 2 [/GND]
+    @(27.2000 mm, 34.1500 mm): F.Cu 上 D3 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 36.4400 mm): F.Cu 上 C8 的焊盘 2 [/GND]
+    @(32.3000 mm, 34.2400 mm): F.Cu 上 C6 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(34.0000 mm, 28.0500 mm): F.Cu 上 D7 的焊盘 2 [/GND]
+    @(32.3000 mm, 29.8400 mm): F.Cu 上 C1 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.2000 mm, 30.2500 mm): F.Cu 上 D9 的焊盘 2 [/GND]
+    @(34.0000 mm, 28.0500 mm): F.Cu 上 D7 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.4000 mm, 32.4500 mm): F.Cu 上 D11 的焊盘 2 [/GND]
+    @(40.6000 mm, 34.6500 mm): F.Cu 上 D13 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.4000 mm, 32.4500 mm): F.Cu 上 D11 的焊盘 2 [/GND]
+    @(36.2000 mm, 30.2500 mm): F.Cu 上 D9 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 30.5200 mm): F.Cu 上 C2 的焊盘 2 [/GND]
+    @(45.8000 mm, 28.5200 mm): F.Cu 上 C5 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 32.5200 mm): F.Cu 上 C3 的焊盘 2 [/GND]
+    @(45.8000 mm, 34.5200 mm): F.Cu 上 C7 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 32.5200 mm): F.Cu 上 C3 的焊盘 2 [/GND]
+    @(45.8000 mm, 30.5200 mm): F.Cu 上 C2 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 34.5200 mm): F.Cu 上 C7 的焊盘 2 [/GND]
+    @(40.6000 mm, 34.6500 mm): F.Cu 上 D13 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 36.5200 mm): F.Cu 上 C9 的焊盘 2 [/GND]
+    @(45.8000 mm, 34.5200 mm): F.Cu 上 C7 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.0000 mm, 28.0200 mm): F.Cu 上 C13 的焊盘 2 [/GND]
+    @(45.8000 mm, 28.5200 mm): F.Cu 上 C5 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.0000 mm, 28.0200 mm): F.Cu 上 C13 的焊盘 2 [/GND]
+    @(48.9800 mm, 26.1000 mm): F.Cu 上 C15 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.9800 mm, 26.1000 mm): F.Cu 上 C15 的焊盘 2 [/GND]
+    @(49.2750 mm, 24.2000 mm): F.Cu 上 C14 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.6000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E4 [/GND]
+    @(53.2000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F6 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.6000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D4 [/GND]
+    @(51.6000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E4 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D5 [/GND]
+    @(51.6000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D4 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D5 [/GND]
+    @(54.0000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D7 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C5 [/GND]
+    @(52.4000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D5 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B5 [/GND]
+    @(52.4000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C5 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A5 [/GND]
+    @(52.4000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B5 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.7250 mm, 43.0000 mm): F.Cu 上 C18 的焊盘 2 [/GND]
+    @(56.0000 mm, 41.7750 mm): F.Cu 上 C22 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.7750 mm, 24.2000 mm): F.Cu 上 C16 的焊盘 2 [/GND]
+    @(49.2750 mm, 24.2000 mm): F.Cu 上 C14 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F6 [/GND]
+    @(51.6000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H4 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H7 [/GND]
+    @(53.2000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F6 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H7 [/GND]
+    @(58.0000 mm, 28.6900 mm): F.Cu 上 R52 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C7 [/GND]
+    @(54.0000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D7 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A8 [/GND]
+    @(54.0000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C7 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A8 [/GND]
+    @(58.3800 mm, 36.5000 mm): F.Cu 上 C25 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A8 [/GND]
+    @(56.0000 mm, 41.7750 mm): F.Cu 上 C22 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(55.8750 mm, 24.2000 mm): F.Cu 上 C17 的焊盘 2 [/GND]
+    @(58.9750 mm, 24.2000 mm): F.Cu 上 C19 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(55.8750 mm, 24.2000 mm): F.Cu 上 C17 的焊盘 2 [/GND]
+    @(52.7750 mm, 24.2000 mm): F.Cu 上 C16 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.6000 mm, 41.4800 mm): F.Cu 上 C23 的焊盘 2 [/GND]
+    @(56.0000 mm, 41.7750 mm): F.Cu 上 C22 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.6750 mm, 35.0000 mm): F.Cu 上 C24 的焊盘 2 [/GND]
+    @(58.3800 mm, 36.5000 mm): F.Cu 上 C25 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.0000 mm, 41.1500 mm): F.Cu 上 D14 的焊盘 2 [/GND]
+    @(57.6000 mm, 41.4800 mm): F.Cu 上 C23 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.2000 mm, 28.6900 mm): F.Cu 上 R53 的焊盘 2 [/GND]
+    @(58.0000 mm, 28.6900 mm): F.Cu 上 R52 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.2000 mm, 28.6900 mm): F.Cu 上 R53 的焊盘 2 [/GND]
+    @(60.4000 mm, 28.6900 mm): F.Cu 上 R54 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.4000 mm, 28.6900 mm): F.Cu 上 R54 的焊盘 2 [/GND]
+    @(61.6000 mm, 28.6900 mm): F.Cu 上 R55 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.2750 mm, 26.5000 mm): F.Cu 上 C34 的焊盘 2 [/GND]
+    @(61.6000 mm, 28.6900 mm): F.Cu 上 R55 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.2750 mm, 26.5000 mm): F.Cu 上 C34 的焊盘 2 [/GND]
+    @(58.9750 mm, 24.2000 mm): F.Cu 上 C19 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.6000 mm, 44.6250 mm): F.Cu 上 J2 的焊盘 2 [/GND]
+    @(59.0000 mm, 41.1500 mm): F.Cu 上 D14 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.1625 mm, 22.8000 mm): F.Cu 上 U6 的焊盘 2 [/GND]
+    @(62.2750 mm, 26.5000 mm): F.Cu 上 C34 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.2750 mm, 27.0000 mm): F.Cu 上 C20 的焊盘 2 [/GND]
+    @(62.2750 mm, 26.5000 mm): F.Cu 上 C34 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.3750 mm, 38.8000 mm): F.Cu 上 C30 的焊盘 2 [/GND]
+    @(69.3500 mm, 41.2500 mm): F.Cu 上 U4 的焊盘 1 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.8000 mm, 45.9900 mm): F.Cu 上 R20 的焊盘 2 [/GND]
+    @(62.6000 mm, 44.6250 mm): F.Cu 上 J2 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.4800 mm, 27.0000 mm): F.Cu 上 C21 的焊盘 2 [/GND]
+    @(65.2750 mm, 27.0000 mm): F.Cu 上 C20 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.4800 mm, 27.0000 mm): F.Cu 上 C21 的焊盘 2 [/GND]
+    @(68.9750 mm, 22.8000 mm): F.Cu 上 C35 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(68.2000 mm, 45.5250 mm): F.Cu 上 C28 的焊盘 2 [/GND]
+    @(65.8000 mm, 45.9900 mm): F.Cu 上 R20 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.3500 mm, 41.2500 mm): F.Cu 上 U4 的焊盘 1 [/GND]
+    @(70.7100 mm, 38.8000 mm): F.Cu 上 R24 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.3500 mm, 41.2500 mm): F.Cu 上 U4 的焊盘 1 [/GND]
+    @(68.2000 mm, 45.5250 mm): F.Cu 上 C28 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.7100 mm, 38.8000 mm): F.Cu 上 R24 的焊盘 2 [/GND]
+    @(72.1250 mm, 38.8000 mm): F.Cu 上 C29 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.1250 mm, 38.8000 mm): F.Cu 上 C29 的焊盘 2 [/GND]
+    @(72.7750 mm, 35.0000 mm): F.Cu 上 C32 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.5000 mm, 28.9900 mm): F.Cu 上 R31 的焊盘 2 [/GND]
+    @(67.4800 mm, 27.0000 mm): F.Cu 上 C21 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.9500 mm, 48.5000 mm): F.Cu 上 C31 的焊盘 2 [/GND]
+    @(68.2000 mm, 45.5250 mm): F.Cu 上 C28 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.3625 mm, 42.0000 mm): F.Cu 上 U5 的焊盘 2 [/GND]
+    @(80.5000 mm, 41.2250 mm): F.Cu 上 C33 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.3625 mm, 42.0000 mm): F.Cu 上 U5 的焊盘 2 [/GND]
+    @(72.1250 mm, 38.8000 mm): F.Cu 上 C29 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.9500 mm, 22.0000 mm): F.Cu 上 C39 的焊盘 2 [/GND]
+    @(77.7750 mm, 25.0000 mm): F.Cu 上 C36 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5000 mm, 41.2250 mm): F.Cu 上 C33 的焊盘 2 [/GND]
+    @(80.5100 mm, 45.5000 mm): F.Cu 上 R27 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5100 mm, 45.5000 mm): F.Cu 上 R27 的焊盘 2 [/GND]
+    @(84.8800 mm, 45.5000 mm): F.Cu 上 C38 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.6500 mm, 22.0000 mm): F.Cu 上 C40 的焊盘 2 [/GND]
+    @(84.3500 mm, 22.0000 mm): F.Cu 上 C41 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.7000 mm, 28.4900 mm): F.Cu 上 R36 的焊盘 2 [/GND]
+    @(82.8000 mm, 28.3200 mm): F.Cu 上 C44 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.8625 mm, 25.0000 mm): F.Cu 上 U7 的焊盘 2 [/GND]
+    @(80.6500 mm, 22.0000 mm): F.Cu 上 C40 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.8625 mm, 25.0000 mm): F.Cu 上 U7 的焊盘 2 [/GND]
+    @(77.7750 mm, 25.0000 mm): F.Cu 上 C36 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.8625 mm, 25.0000 mm): F.Cu 上 U7 的焊盘 2 [/GND]
+    @(80.7000 mm, 28.4900 mm): F.Cu 上 R36 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.8000 mm, 28.3200 mm): F.Cu 上 C44 的焊盘 2 [/GND]
+    @(82.8000 mm, 30.7200 mm): F.Cu 上 C45 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.8800 mm, 45.5000 mm): F.Cu 上 C38 的焊盘 2 [/GND]
+    @(84.7300 mm, 47.5000 mm): B.Cu 上 J5 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.2500 mm, 34.2625 mm): F.Cu 上 U3 的焊盘 1 [/GND]
+    @(87.0125 mm, 33.0000 mm): F.Cu 上 U3 的焊盘 6 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.7750 mm, 24.5000 mm): F.Cu 上 C37 的焊盘 2 [/GND]
+    @(88.0000 mm, 26.4900 mm): F.Cu 上 R34 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.7750 mm, 24.5000 mm): F.Cu 上 C37 的焊盘 2 [/GND]
+    @(84.3500 mm, 22.0000 mm): F.Cu 上 C41 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.0125 mm, 32.5000 mm): F.Cu 上 U3 的焊盘 7 [/GND]
+    @(87.0125 mm, 33.0000 mm): F.Cu 上 U3 的焊盘 6 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.1800 mm, 39.4000 mm): F.Cu 上 C50 的焊盘 2 [/GND]
+    @(89.9800 mm, 40.0000 mm): F.Cu 上 C54 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.1800 mm, 39.4000 mm): F.Cu 上 C50 的焊盘 2 [/GND]
+    @(84.8800 mm, 45.5000 mm): F.Cu 上 C38 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.3000 mm, 34.0200 mm): F.Cu 上 C48 的焊盘 2 [/GND]
+    @(87.0125 mm, 33.0000 mm): F.Cu 上 U3 的焊盘 6 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.3000 mm, 34.0200 mm): F.Cu 上 C48 的焊盘 2 [/GND]
+    @(91.0500 mm, 33.4750 mm): U2 的PTH 焊盘 69 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.7750 mm, 36.7000 mm): F.Cu 上 C49 的焊盘 2 [/GND]
+    @(88.3000 mm, 34.0200 mm): F.Cu 上 C48 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.9800 mm, 25.8000 mm): F.Cu 上 C51 的焊盘 2 [/GND]
+    @(92.9800 mm, 25.8000 mm): F.Cu 上 C52 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.9800 mm, 25.8000 mm): F.Cu 上 C51 的焊盘 2 [/GND]
+    @(88.0000 mm, 26.4900 mm): F.Cu 上 R34 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.9800 mm, 25.8000 mm): F.Cu 上 C51 的焊盘 2 [/GND]
+    @(91.0500 mm, 29.0500 mm): U2 的PTH 焊盘 69 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.9800 mm, 40.0000 mm): F.Cu 上 C55 的焊盘 2 [/GND]
+    @(89.9800 mm, 40.0000 mm): F.Cu 上 C54 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.9800 mm, 25.8000 mm): F.Cu 上 C52 的焊盘 2 [/GND]
+    @(94.9800 mm, 25.8000 mm): F.Cu 上 C53 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.9800 mm, 40.0000 mm): F.Cu 上 C58 的焊盘 2 [/GND]
+    @(91.9800 mm, 40.0000 mm): F.Cu 上 C55 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.9800 mm, 40.0000 mm): F.Cu 上 C58 的焊盘 2 [/GND]
+    @(94.7750 mm, 42.5000 mm): F.Cu 上 C60 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.9800 mm, 25.8000 mm): F.Cu 上 C53 的焊盘 2 [/GND]
+    @(94.4375 mm, 21.7500 mm): F.Cu 上 U10 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.9800 mm, 40.0000 mm): F.Cu 上 C59 的焊盘 2 [/GND]
+    @(93.9800 mm, 40.0000 mm): F.Cu 上 C58 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 45.5200 mm): F.Cu 上 C61 的焊盘 2 [/GND]
+    @(98.0000 mm, 45.6900 mm): F.Cu 上 R40 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.8000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B3 [/GND]
+    @(96.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 32 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.9500 mm, 34.9500 mm): U2 的PTH 焊盘 69 [/GND]
+    @(96.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 32 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.3000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B2 [/GND]
+    @(96.8000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B3 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.3000 mm, 38.7935 mm): F.Cu 上 U9 的焊盘 A2 [/GND]
+    @(97.3000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.3000 mm, 38.7935 mm): F.Cu 上 U9 的焊盘 A2 [/GND]
+    @(95.9800 mm, 40.0000 mm): F.Cu 上 C59 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.7750 mm, 43.7000 mm): F.Cu 上 C62 的焊盘 2 [/GND]
+    @(98.0000 mm, 45.6900 mm): F.Cu 上 R40 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.7750 mm, 43.7000 mm): F.Cu 上 C62 的焊盘 2 [/GND]
+    @(94.7750 mm, 42.5000 mm): F.Cu 上 C60 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B1 [/GND]
+    @(97.3000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8100 mm, 22.3000 mm): B.Cu 上 J3 的焊盘 4 [/GND]
+    @(94.4375 mm, 21.7500 mm): F.Cu 上 U10 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 42 [/GND]
+    @(96.9500 mm, 32.0000 mm): U2 的PTH 焊盘 69 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 42 [/GND]
+    @(100.3000 mm, 34.4500 mm): F.Cu 上 Y1 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.0000 mm, 45.6900 mm): F.Cu 上 R40 的焊盘 2 [/GND]
+    @(99.6625 mm, 46.5000 mm): F.Cu 上 U8 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.0800 mm, 25.5000 mm): F.Cu 上 C56 的焊盘 2 [/GND]
+    @(101.2750 mm, 24.0000 mm): F.Cu 上 C57 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.0800 mm, 25.5000 mm): F.Cu 上 C56 的焊盘 2 [/GND]
+    @(97.8100 mm, 22.3000 mm): B.Cu 上 J3 的焊盘 4 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.2000 mm, 38.4800 mm): F.Cu 上 C43 的焊盘 2 [/GND]
+    @(97.8000 mm, 38.2065 mm): F.Cu 上 U9 的焊盘 B1 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.6625 mm, 46.5000 mm): F.Cu 上 U8 的焊盘 2 [/GND]
+    @(101.9375 mm, 46.5000 mm): F.Cu 上 U8 的焊盘 5 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.3000 mm, 34.4500 mm): F.Cu 上 Y1 的焊盘 2 [/GND]
+    @(101.7000 mm, 35.5500 mm): F.Cu 上 Y1 的焊盘 4 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.5000 mm, 38.5200 mm): F.Cu 上 C65 的焊盘 2 [/GND]
+    @(99.2000 mm, 38.4800 mm): F.Cu 上 C43 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.9375 mm, 46.5000 mm): F.Cu 上 U8 的焊盘 5 [/GND]
+    @(104.0000 mm, 46.6500 mm): F.Cu 上 C63 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.4800 mm, 49.0000 mm): F.Cu 上 C64 的焊盘 2 [/GND]
+    @(101.9375 mm, 46.5000 mm): F.Cu 上 U8 的焊盘 5 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.1000 mm, 33.6200 mm): F.Cu 上 C42 的焊盘 2 [/GND]
+    @(101.7000 mm, 35.5500 mm): F.Cu 上 Y1 的焊盘 4 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.1000 mm, 33.6200 mm): F.Cu 上 C42 的焊盘 2 [/GND]
+    @(106.0000 mm, 32.0200 mm): F.Cu 上 C66 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.2750 mm, 26.0000 mm): F.Cu 上 C46 的焊盘 2 [/GND]
+    @(101.2750 mm, 24.0000 mm): F.Cu 上 C57 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 32.0200 mm): F.Cu 上 C66 的焊盘 2 [/GND]
+    @(104.5000 mm, 30.2250 mm): F.Cu 上 C47 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.0500 mm, 38.6050 mm): F.Cu 上 J4 的焊盘 6 [/GND]
+    @(107.4000 mm, 35.2450 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.1750 mm, 46.5650 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+    @(104.0000 mm, 46.6500 mm): F.Cu 上 C63 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4000 mm, 35.2450 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+    @(106.0000 mm, 32.0200 mm): F.Cu 上 C66 的焊盘 2 [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.9000 mm, 46.7400 mm): F.Cu 上 J4 的焊盘 10 [/GND]
+    @(117.8750 mm, 43.2400 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.9000 mm, 46.7400 mm): F.Cu 上 J4 的焊盘 10 [/GND]
+    @(107.1750 mm, 46.5650 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.8750 mm, 43.2400 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+    @(117.8750 mm, 37.2700 mm): F.Cu 上 J4 的焊盘 SH [/GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.0875 mm, 37.8000 mm): F.Cu 上 FB1 的焊盘 2 [/MCU_VDDA]
+    @(86.2200 mm, 39.4000 mm): F.Cu 上 C50 的焊盘 1 [/MCU_VDDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.2250 mm, 36.7000 mm): F.Cu 上 C49 的焊盘 1 [/MCU_VDDA]
+    @(85.0875 mm, 37.8000 mm): F.Cu 上 FB1 的焊盘 2 [/MCU_VDDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.2250 mm, 36.7000 mm): F.Cu 上 C49 的焊盘 1 [/MCU_VDDA]
+    @(90.1125 mm, 34.0000 mm): F.Cu 上 U2 的焊盘 14 [/MCU_VDDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 34.0000 mm): F.Cu 上 U2 的焊盘 14 [/MCU_VDDA]
+    @(90.1125 mm, 33.6000 mm): F.Cu 上 U2 的焊盘 13 [/MCU_VDDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 29.6000 mm): F.Cu 上 U2 的焊盘 49 [/SD_MOSI_MCU]
+    @(103.9900 mm, 41.7000 mm): F.Cu 上 R42 的焊盘 1 [/SD_MOSI_MCU]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.0100 mm, 41.7000 mm): F.Cu 上 R42 的焊盘 2 [/SD_CMD]
+    @(101.5100 mm, 41.7000 mm): F.Cu 上 R47 的焊盘 2 [/SD_CMD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.0500 mm, 41.9050 mm): F.Cu 上 J4 的焊盘 3 [/SD_CMD]
+    @(105.0100 mm, 41.7000 mm): F.Cu 上 R42 的焊盘 2 [/SD_CMD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8000 mm, 38.7935 mm): F.Cu 上 U9 的焊盘 A1 [/RF_FILTER_OUT]
+    @(100.5000 mm, 39.4800 mm): F.Cu 上 C65 的焊盘 1 [/RF_FILTER_OUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.5000 mm, 39.4800 mm): F.Cu 上 C65 的焊盘 1 [/RF_FILTER_OUT]
+    @(101.9900 mm, 39.5000 mm): F.Cu 上 R51 的焊盘 1 [/RF_FILTER_OUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 32.9800 mm): F.Cu 上 C66 的焊盘 1 [/RF_ANT_FEED]
+    @(103.0100 mm, 39.5000 mm): F.Cu 上 R51 的焊盘 2 [/RF_ANT_FEED]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.5500 mm, 31.0000 mm): F.Cu 上 AE1 的焊盘 1 [/RF_ANT_FEED]
+    @(106.0000 mm, 32.9800 mm): F.Cu 上 C66 的焊盘 1 [/RF_ANT_FEED]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(34.0000 mm, 33.5500 mm): F.Cu 上 D6 的焊盘 1 [/3V0_A]
+    @(36.2000 mm, 35.7500 mm): F.Cu 上 D8 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.2000 mm, 35.7500 mm): F.Cu 上 D8 的焊盘 1 [/3V0_A]
+    @(38.4000 mm, 37.9500 mm): F.Cu 上 D10 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.4000 mm, 37.9500 mm): F.Cu 上 D10 的焊盘 1 [/3V0_A]
+    @(40.6000 mm, 40.1500 mm): F.Cu 上 D12 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D1 [/3V0_A]
+    @(50.0000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D2 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C1 [/3V0_A]
+    @(49.2000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B1 [/3V0_A]
+    @(49.2000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B1 [/3V0_A]
+    @(50.0000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B2 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A1 [/3V0_A]
+    @(49.2000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A1 [/3V0_A]
+    @(40.6000 mm, 40.1500 mm): F.Cu 上 D12 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.0000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B2 [/3V0_A]
+    @(50.0000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C2 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.0000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B2 [/3V0_A]
+    @(51.6000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B4 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.0000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A2 [/3V0_A]
+    @(49.2000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.6000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B4 [/3V0_A]
+    @(51.6000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A4 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.6000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B4 [/3V0_A]
+    @(53.2000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B6 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C6 [/3V0_A]
+    @(53.2000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B6 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B6 [/3V0_A]
+    @(53.2000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A6 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A6 [/3V0_A]
+    @(59.7100 mm, 39.2000 mm): F.Cu 上 R15 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.7100 mm, 39.2000 mm): F.Cu 上 R15 的焊盘 1 [/3V0_A]
+    @(61.5100 mm, 37.4000 mm): F.Cu 上 R17 的焊盘 2 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.5100 mm, 37.4000 mm): F.Cu 上 R17 的焊盘 2 [/3V0_A]
+    @(61.5100 mm, 35.0000 mm): F.Cu 上 R16 的焊盘 2 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.7250 mm, 27.0000 mm): F.Cu 上 C20 的焊盘 1 [/3V0_A]
+    @(66.5200 mm, 27.0000 mm): F.Cu 上 C21 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.7250 mm, 27.0000 mm): F.Cu 上 C20 的焊盘 1 [/3V0_A]
+    @(61.5100 mm, 35.0000 mm): F.Cu 上 R16 的焊盘 2 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.5200 mm, 27.0000 mm): F.Cu 上 C21 的焊盘 1 [/3V0_A]
+    @(67.4250 mm, 22.8000 mm): F.Cu 上 C35 的焊盘 1 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.4250 mm, 22.8000 mm): F.Cu 上 C35 的焊盘 1 [/3V0_A]
+    @(65.4375 mm, 21.8500 mm): F.Cu 上 U6 的焊盘 5 [/3V0_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 35.2000 mm): F.Cu 上 C6 的焊盘 1 [/LL_PROT]
+    @(30.8250 mm, 35.2000 mm): F.Cu 上 R6 的焊盘 2 [/LL_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.4000 mm, 34.5500 mm): F.Cu 上 D11 的焊盘 1 [/LL_PROT]
+    @(38.4000 mm, 35.8500 mm): F.Cu 上 D10 的焊盘 2 [/LL_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.4000 mm, 35.8500 mm): F.Cu 上 D10 的焊盘 2 [/LL_PROT]
+    @(32.3000 mm, 35.2000 mm): F.Cu 上 C6 的焊盘 1 [/LL_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(42.3750 mm, 34.8000 mm): F.Cu 上 R7 的焊盘 1 [/LL_PROT]
+    @(38.4000 mm, 34.5500 mm): F.Cu 上 D11 的焊盘 1 [/LL_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A7 [/ADS_AVDD1]
+    @(56.0000 mm, 40.2250 mm): F.Cu 上 C22 的焊盘 1 [/ADS_AVDD1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(56.0000 mm, 40.2250 mm): F.Cu 上 C22 的焊盘 1 [/ADS_AVDD1]
+    @(57.6000 mm, 40.5200 mm): F.Cu 上 C23 的焊盘 1 [/ADS_AVDD1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.6000 mm, 40.5200 mm): F.Cu 上 C23 的焊盘 1 [/ADS_AVDD1]
+    @(58.6900 mm, 39.2000 mm): F.Cu 上 R15 的焊盘 2 [/ADS_AVDD1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(33.5200 mm, 46.0000 mm): F.Cu 上 C26 的焊盘 1 [/ADS_RESP_MODP]
+    @(51.6000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G4 [/ADS_RESP_MODP]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(34.4800 mm, 46.0000 mm): F.Cu 上 C26 的焊盘 2 [/RESP_P_AC]
+    @(35.6900 mm, 46.0000 mm): F.Cu 上 R18 的焊盘 1 [/RESP_P_AC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 31.6000 mm): F.Cu 上 U2 的焊盘 44 [/SMPS_IN]
+    @(101.2125 mm, 27.8000 mm): F.Cu 上 L1 的焊盘 2 [/SMPS_IN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.2125 mm, 27.8000 mm): F.Cu 上 L1 的焊盘 2 [/SMPS_IN]
+    @(102.7250 mm, 26.0000 mm): F.Cu 上 C46 的焊盘 1 [/SMPS_IN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.7250 mm, 24.2000 mm): F.Cu 上 C14 的焊盘 1 [/ADS_VREFP]
+    @(48.0200 mm, 26.1000 mm): F.Cu 上 C15 的焊盘 1 [/ADS_VREFP]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.0200 mm, 26.1000 mm): F.Cu 上 C15 的焊盘 1 [/ADS_VREFP]
+    @(50.8000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H3 [/ADS_VREFP]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G8 [/ADS_CLK]
+    @(57.6000 mm, 31.2000 mm): F.Cu 上 TP5 的焊盘 1 [/ADS_CLK]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F7 [/ADS_CS]
+    @(76.0000 mm, 37.0100 mm): F.Cu 上 R32 的焊盘 2 [/ADS_CS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.0000 mm, 37.0100 mm): F.Cu 上 R32 的焊盘 2 [/ADS_CS]
+    @(91.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 19 [/ADS_CS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.3100 mm, 22.5000 mm): F.Cu 上 R37 的焊盘 2 [/LED_STATUS_A]
+    @(106.2875 mm, 22.5000 mm): F.Cu 上 D16 的焊盘 2 [/LED_STATUS_A]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.0000 mm, 27.5100 mm): F.Cu 上 R34 的焊盘 1 [/BOOT0]
+    @(77.5000 mm, 29.0000 mm): F.Cu 上 TP3 的焊盘 1 [/BOOT0]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 30.4000 mm): F.Cu 上 U2 的焊盘 5 [/BOOT0]
+    @(88.0000 mm, 27.5100 mm): F.Cu 上 R34 的焊盘 1 [/BOOT0]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.5200 mm, 46.0000 mm): F.Cu 上 C27 的焊盘 1 [/ADS_RESP_MODN]
+    @(51.6000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F4 [/ADS_RESP_MODN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(39.4800 mm, 46.0000 mm): F.Cu 上 C27 的焊盘 2 [/RESP_N_AC]
+    @(40.6900 mm, 46.0000 mm): F.Cu 上 R19 的焊盘 1 [/RESP_N_AC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.4900 mm, 38.8000 mm): F.Cu 上 R23 的焊盘 1 [/VBUS]
+    @(69.3500 mm, 42.2500 mm): F.Cu 上 U4 的焊盘 3 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.3500 mm, 42.2500 mm): F.Cu 上 U4 的焊盘 3 [/VBUS]
+    @(71.6500 mm, 42.7500 mm): F.Cu 上 U4 的焊盘 5 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.6500 mm, 42.7500 mm): F.Cu 上 U4 的焊盘 5 [/VBUS]
+    @(73.6750 mm, 38.8000 mm): F.Cu 上 C29 的焊盘 1 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.6750 mm, 38.8000 mm): F.Cu 上 C29 的焊盘 1 [/VBUS]
+    @(79.5000 mm, 29.5100 mm): F.Cu 上 R35 的焊盘 1 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.2250 mm, 25.0000 mm): F.Cu 上 C36 的焊盘 1 [/VBUS]
+    @(80.8625 mm, 25.9500 mm): F.Cu 上 U7 的焊盘 3 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.8625 mm, 25.9500 mm): F.Cu 上 U7 的焊盘 3 [/VBUS]
+    @(80.8625 mm, 24.0500 mm): F.Cu 上 U7 的焊盘 1 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.8625 mm, 25.9500 mm): F.Cu 上 U7 的焊盘 3 [/VBUS]
+    @(79.5000 mm, 29.5100 mm): F.Cu 上 R35 的焊盘 1 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.0000 mm, 22.4125 mm): F.Cu 上 F2 的焊盘 2 [/VBUS]
+    @(80.8625 mm, 24.0500 mm): F.Cu 上 U7 的焊盘 1 [/VBUS]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.7250 mm, 26.5000 mm): F.Cu 上 C34 的焊盘 1 [/SYS_RAW]
+    @(63.1625 mm, 23.7500 mm): F.Cu 上 U6 的焊盘 3 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.1625 mm, 23.7500 mm): F.Cu 上 U6 的焊盘 3 [/SYS_RAW]
+    @(63.1625 mm, 21.8500 mm): F.Cu 上 U6 的焊盘 1 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.3500 mm, 41.7500 mm): F.Cu 上 U4 的焊盘 2 [/SYS_RAW]
+    @(71.6500 mm, 41.7500 mm): F.Cu 上 U4 的焊盘 7 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.0500 mm, 48.5000 mm): F.Cu 上 C31 的焊盘 1 [/SYS_RAW]
+    @(71.6500 mm, 41.7500 mm): F.Cu 上 U4 的焊盘 7 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.2250 mm, 35.0000 mm): F.Cu 上 C32 的焊盘 1 [/SYS_RAW]
+    @(71.6500 mm, 41.7500 mm): F.Cu 上 U4 的焊盘 7 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.2250 mm, 35.0000 mm): F.Cu 上 C32 的焊盘 1 [/SYS_RAW]
+    @(60.7250 mm, 26.5000 mm): F.Cu 上 C34 的焊盘 1 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.6500 mm, 41.7500 mm): F.Cu 上 U4 的焊盘 7 [/SYS_RAW]
+    @(76.3625 mm, 41.0500 mm): F.Cu 上 U5 的焊盘 1 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.3625 mm, 42.9500 mm): F.Cu 上 U5 的焊盘 3 [/SYS_RAW]
+    @(76.3625 mm, 41.0500 mm): F.Cu 上 U5 的焊盘 1 [/SYS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.7500 mm, 34.2625 mm): F.Cu 上 U3 的焊盘 4 [/IMU_INT1]
+    @(93.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 25 [/IMU_INT1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.2500 mm, 31.7375 mm): F.Cu 上 U3 的焊盘 9 [/IMU_INT2]
+    @(94.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 26 [/IMU_INT2]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.3100 mm, 32.8000 mm): F.Cu 上 R38 的焊盘 2 [/IMU_SCL]
+    @(84.9875 mm, 33.0000 mm): F.Cu 上 U3 的焊盘 13 [/IMU_SCL]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.9875 mm, 33.0000 mm): F.Cu 上 U3 的焊盘 13 [/IMU_SCL]
+    @(90.1125 mm, 30.8000 mm): F.Cu 上 U2 的焊盘 6 [/IMU_SCL]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.9875 mm, 33.5000 mm): F.Cu 上 U3 的焊盘 14 [/IMU_SDA]
+    @(84.3100 mm, 34.0000 mm): F.Cu 上 R39 的焊盘 2 [/IMU_SDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 31.2000 mm): F.Cu 上 U2 的焊盘 7 [/IMU_SDA]
+    @(84.9875 mm, 33.5000 mm): F.Cu 上 U3 的焊盘 14 [/IMU_SDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.7875 mm, 30.5000 mm): F.Cu 上 L2 的焊盘 2 [/SMPS_FB]
+    @(97.8875 mm, 32.8000 mm): F.Cu 上 U2 的焊盘 41 [/SMPS_FB]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.5000 mm, 31.7750 mm): F.Cu 上 C47 的焊盘 1 [/SMPS_FB]
+    @(102.7875 mm, 30.5000 mm): F.Cu 上 L2 的焊盘 2 [/SMPS_FB]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 32.0000 mm): F.Cu 上 U2 的焊盘 43 [/SMPS_SW]
+    @(101.2125 mm, 30.5000 mm): F.Cu 上 L2 的焊盘 1 [/SMPS_SW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.2750 mm, 36.8000 mm): F.Cu 上 J1 的焊盘 5 [/V5_ELEC]
+    @(27.2000 mm, 38.3500 mm): F.Cu 上 D4 的焊盘 1 [/V5_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 38.3500 mm): F.Cu 上 D4 的焊盘 1 [/V5_ELEC]
+    @(29.1750 mm, 37.4000 mm): F.Cu 上 R8 的焊盘 1 [/V5_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 32.8000 mm): F.Cu 上 U2 的焊盘 11 [/SD_DETECT]
+    @(110.5100 mm, 49.0000 mm): F.Cu 上 R50 的焊盘 2 [/SD_DETECT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.5100 mm, 49.0000 mm): F.Cu 上 R50 的焊盘 2 [/SD_DETECT]
+    @(113.2000 mm, 46.7400 mm): F.Cu 上 J4 的焊盘 9 [/SD_DETECT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.4900 mm, 41.7000 mm): F.Cu 上 R47 的焊盘 1 [/3V0_SD]
+    @(100.4900 mm, 43.3000 mm): F.Cu 上 R46 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.5200 mm, 49.0000 mm): F.Cu 上 C64 的焊盘 1 [/3V0_SD]
+    @(104.0000 mm, 48.5500 mm): F.Cu 上 C63 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.9375 mm, 45.5500 mm): F.Cu 上 U8 的焊盘 6 [/3V0_SD]
+    @(100.4900 mm, 43.3000 mm): F.Cu 上 R46 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.8000 mm, 45.2100 mm): F.Cu 上 R45 的焊盘 1 [/3V0_SD]
+    @(101.9375 mm, 45.5500 mm): F.Cu 上 U8 的焊盘 6 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.8000 mm, 45.2100 mm): F.Cu 上 R45 的焊盘 1 [/3V0_SD]
+    @(104.0000 mm, 48.5500 mm): F.Cu 上 C63 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.4900 mm, 49.0000 mm): F.Cu 上 R48 的焊盘 1 [/3V0_SD]
+    @(104.0000 mm, 48.5500 mm): F.Cu 上 C63 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.4900 mm, 49.0000 mm): F.Cu 上 R48 的焊盘 1 [/3V0_SD]
+    @(107.4900 mm, 49.0000 mm): F.Cu 上 R49 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.0500 mm, 40.8050 mm): F.Cu 上 J4 的焊盘 4 [/3V0_SD]
+    @(103.8000 mm, 45.2100 mm): F.Cu 上 R45 的焊盘 1 [/3V0_SD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.0500 mm, 36.4550 mm): F.Cu 上 J4 的焊盘 8 [/SD_DAT1]
+    @(108.5100 mm, 49.0000 mm): F.Cu 上 R49 的焊盘 2 [/SD_DAT1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 31.4800 mm): F.Cu 上 C2 的焊盘 1 [/ADS_CH1N]
+    @(44.0250 mm, 31.6000 mm): F.Cu 上 R2 的焊盘 2 [/ADS_CH1N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.0000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H2 [/ADS_CH1N]
+    @(45.8000 mm, 31.4800 mm): F.Cu 上 C2 的焊盘 1 [/ADS_CH1N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.2750 mm, 34.4000 mm): F.Cu 上 J1 的焊盘 3 [/LL_ELEC]
+    @(27.2000 mm, 34.8500 mm): F.Cu 上 D3 的焊盘 1 [/LL_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 34.8500 mm): F.Cu 上 D3 的焊盘 1 [/LL_ELEC]
+    @(29.1750 mm, 35.2000 mm): F.Cu 上 R6 的焊盘 1 [/LL_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.3500 mm, 42.7500 mm): F.Cu 上 U4 的焊盘 4 [/MUX_PR1]
+    @(69.6900 mm, 38.8000 mm): F.Cu 上 R24 的焊盘 1 [/MUX_PR1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.6900 mm, 38.8000 mm): F.Cu 上 R24 的焊盘 1 [/MUX_PR1]
+    @(68.5100 mm, 38.8000 mm): F.Cu 上 R23 的焊盘 2 [/MUX_PR1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.8250 mm, 38.8000 mm): F.Cu 上 C30 的焊盘 1 [/BAT_PROT]
+    @(66.4375 mm, 42.0000 mm): F.Cu 上 Q1 的焊盘 3 [/BAT_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.4375 mm, 42.0000 mm): F.Cu 上 Q1 的焊盘 3 [/BAT_PROT]
+    @(68.2000 mm, 47.0750 mm): F.Cu 上 C28 的焊盘 1 [/BAT_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.6500 mm, 42.2500 mm): F.Cu 上 U4 的焊盘 6 [/BAT_PROT]
+    @(66.4375 mm, 42.0000 mm): F.Cu 上 Q1 的焊盘 3 [/BAT_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.2900 mm, 45.5000 mm): F.Cu 上 R26 的焊盘 1 [/BAT_PROT]
+    @(71.6500 mm, 42.2500 mm): F.Cu 上 U4 的焊盘 6 [/BAT_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.6500 mm, 41.2500 mm): F.Cu 上 U4 的焊盘 8 [/PWR_USB_N]
+    @(72.7000 mm, 44.6900 mm): F.Cu 上 R25 的焊盘 2 [/PWR_USB_N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.7000 mm, 44.6900 mm): F.Cu 上 R25 的焊盘 2 [/PWR_USB_N]
+    @(75.0000 mm, 47.0000 mm): F.Cu 上 TP4 的焊盘 1 [/PWR_USB_N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.0500 mm, 22.0000 mm): F.Cu 上 C39 的焊盘 1 [/RTC_HOLD]
+    @(78.7500 mm, 22.0000 mm): F.Cu 上 C40 的焊盘 1 [/RTC_HOLD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.7500 mm, 22.0000 mm): F.Cu 上 C40 的焊盘 1 [/RTC_HOLD]
+    @(82.4500 mm, 22.0000 mm): F.Cu 上 C41 的焊盘 1 [/RTC_HOLD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.4500 mm, 22.0000 mm): F.Cu 上 C41 的焊盘 1 [/RTC_HOLD]
+    @(85.9500 mm, 21.8000 mm): F.Cu 上 D15 的焊盘 1 [/RTC_HOLD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 28.8000 mm): F.Cu 上 U2 的焊盘 1 [/RTC_HOLD]
+    @(85.9500 mm, 21.8000 mm): F.Cu 上 D15 的焊盘 1 [/RTC_HOLD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 31.3500 mm): F.Cu 上 D1 的焊盘 1 [/RA_ELEC]
+    @(25.2750 mm, 32.0000 mm): F.Cu 上 J1 的焊盘 1 [/RA_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.1750 mm, 30.8000 mm): F.Cu 上 R1 的焊盘 1 [/RA_ELEC]
+    @(27.2000 mm, 31.3500 mm): F.Cu 上 D1 的焊盘 1 [/RA_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(30.8250 mm, 30.8000 mm): F.Cu 上 R1 的焊盘 2 [/RA_PROT]
+    @(32.3000 mm, 30.8000 mm): F.Cu 上 C1 的焊盘 1 [/RA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(34.0000 mm, 30.1500 mm): F.Cu 上 D7 的焊盘 1 [/RA_PROT]
+    @(32.3000 mm, 30.8000 mm): F.Cu 上 C1 的焊盘 1 [/RA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(34.0000 mm, 31.4500 mm): F.Cu 上 D6 的焊盘 2 [/RA_PROT]
+    @(34.0000 mm, 30.1500 mm): F.Cu 上 D7 的焊盘 1 [/RA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(42.3750 mm, 31.6000 mm): F.Cu 上 R2 的焊盘 1 [/RA_PROT]
+    @(34.0000 mm, 31.4500 mm): F.Cu 上 D6 的焊盘 2 [/RA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(42.3750 mm, 33.2000 mm): F.Cu 上 R3 的焊盘 1 [/RA_PROT]
+    @(42.3750 mm, 31.6000 mm): F.Cu 上 R2 的焊盘 1 [/RA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.7000 mm, 34.4500 mm): F.Cu 上 Y1 的焊盘 1 [/HSE_IN]
+    @(97.8875 mm, 35.2000 mm): F.Cu 上 U2 的焊盘 35 [/HSE_IN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.1000 mm, 34.5800 mm): F.Cu 上 C42 的焊盘 1 [/HSE_IN]
+    @(101.7000 mm, 34.4500 mm): F.Cu 上 Y1 的焊盘 1 [/HSE_IN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 36.6000 mm): F.Cu 上 D5 的焊盘 1 [/RL_ELEC]
+    @(25.2750 mm, 35.6000 mm): F.Cu 上 J1 的焊盘 4 [/RL_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.0200 mm, 41.0000 mm): F.Cu 上 C10 的焊盘 1 [/RL_ELEC]
+    @(27.2000 mm, 36.6000 mm): F.Cu 上 D5 的焊盘 1 [/RL_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.0200 mm, 41.0000 mm): F.Cu 上 C10 的焊盘 1 [/RL_ELEC]
+    @(43.8750 mm, 40.7000 mm): F.Cu 上 R11 的焊盘 2 [/RL_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.5000 mm, 28.4900 mm): F.Cu 上 R35 的焊盘 2 [/USB_VBUS_SENSE]
+    @(80.7000 mm, 29.5100 mm): F.Cu 上 R36 的焊盘 1 [/USB_VBUS_SENSE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.7000 mm, 29.5100 mm): F.Cu 上 R36 的焊盘 1 [/USB_VBUS_SENSE]
+    @(93.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 24 [/USB_VBUS_SENSE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.5000 mm, 30.0100 mm): F.Cu 上 R31 的焊盘 1 [/ADS_START]
+    @(54.0000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G7 [/ADS_START]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 32.0000 mm): F.Cu 上 U2 的焊盘 9 [/ADS_START]
+    @(72.5000 mm, 30.0100 mm): F.Cu 上 R31 的焊盘 1 [/ADS_START]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 37.4000 mm): F.Cu 上 C8 的焊盘 1 [/V5_PROT]
+    @(30.8250 mm, 37.4000 mm): F.Cu 上 R8 的焊盘 2 [/V5_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.3000 mm, 37.4000 mm): F.Cu 上 C8 的焊盘 1 [/V5_PROT]
+    @(40.6000 mm, 38.0500 mm): F.Cu 上 D12 的焊盘 2 [/V5_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(40.6000 mm, 36.7500 mm): F.Cu 上 D13 的焊盘 1 [/V5_PROT]
+    @(40.6000 mm, 38.0500 mm): F.Cu 上 D12 的焊盘 2 [/V5_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(42.3750 mm, 36.4000 mm): F.Cu 上 R9 的焊盘 1 [/V5_PROT]
+    @(40.6000 mm, 36.7500 mm): F.Cu 上 D13 的焊盘 1 [/V5_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B7 [/ADS_VCAP3]
+    @(54.2750 mm, 43.0000 mm): F.Cu 上 C18 的焊盘 1 [/ADS_VCAP3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.5625 mm, 22.7000 mm): F.Cu 上 U10 的焊盘 3 [/USB_DM_POGO]
+    @(97.2000 mm, 24.9900 mm): F.Cu 上 R21 的焊盘 1 [/USB_DM_POGO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.7300 mm, 22.3000 mm): B.Cu 上 J3 的焊盘 2 [/USB_DM_POGO]
+    @(92.5625 mm, 22.7000 mm): F.Cu 上 U10 的焊盘 3 [/USB_DM_POGO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.2000 mm, 26.0100 mm): F.Cu 上 R21 的焊盘 2 [/USB_DM]
+    @(97.2000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 52 [/USB_DM]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.7100 mm, 45.5000 mm): F.Cu 上 R28 的焊盘 2 [/BAT_ADC]
+    @(83.9200 mm, 45.5000 mm): F.Cu 上 C38 的焊盘 1 [/BAT_ADC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.9200 mm, 45.5000 mm): F.Cu 上 C38 的焊盘 1 [/BAT_ADC]
+    @(90.1125 mm, 34.4000 mm): F.Cu 上 U2 的焊盘 15 [/BAT_ADC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.7125 mm, 42.0000 mm): F.Cu 上 F1 的焊盘 1 [/BAT_RAW]
+    @(59.0000 mm, 41.8500 mm): F.Cu 上 D14 的焊盘 1 [/BAT_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.4000 mm, 44.6250 mm): F.Cu 上 J2 的焊盘 1 [/BAT_RAW]
+    @(60.7125 mm, 42.0000 mm): F.Cu 上 F1 的焊盘 1 [/BAT_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F5 [/ADS_GPIO1_TIE]
+    @(58.0000 mm, 29.7100 mm): F.Cu 上 R52 的焊盘 1 [/ADS_GPIO1_TIE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.0250 mm, 34.8000 mm): F.Cu 上 R7 的焊盘 2 [/ADS_CH2P]
+    @(45.8000 mm, 35.4800 mm): F.Cu 上 C7 的焊盘 1 [/ADS_CH2P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.0250 mm, 34.8000 mm): F.Cu 上 R7 的焊盘 2 [/ADS_CH2P]
+    @(36.7100 mm, 46.0000 mm): F.Cu 上 R18 的焊盘 2 [/ADS_CH2P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 35.4800 mm): F.Cu 上 C7 的焊盘 1 [/ADS_CH2P]
+    @(49.2000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G1 [/ADS_CH2P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.0000 mm, 28.2500 mm): F.Cu 上 Y2 的焊盘 1 [/LSE_IN]
+    @(82.8000 mm, 29.2800 mm): F.Cu 上 C44 的焊盘 1 [/LSE_IN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 29.6000 mm): F.Cu 上 U2 的焊盘 3 [/LSE_IN]
+    @(85.0000 mm, 28.2500 mm): F.Cu 上 Y2 的焊盘 1 [/LSE_IN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.0000 mm, 30.7500 mm): F.Cu 上 Y2 的焊盘 2 [/LSE_OUT]
+    @(82.8000 mm, 31.6800 mm): F.Cu 上 C45 的焊盘 1 [/LSE_OUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 30.0000 mm): F.Cu 上 U2 的焊盘 4 [/LSE_OUT]
+    @(85.0000 mm, 30.7500 mm): F.Cu 上 Y2 的焊盘 2 [/LSE_OUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(30.8250 mm, 33.0000 mm): F.Cu 上 R4 的焊盘 2 [/LA_PROT]
+    @(32.3000 mm, 33.0000 mm): F.Cu 上 C4 的焊盘 1 [/LA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.2000 mm, 32.3500 mm): F.Cu 上 D9 的焊盘 1 [/LA_PROT]
+    @(42.3750 mm, 30.0000 mm): F.Cu 上 R5 的焊盘 1 [/LA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.2000 mm, 33.6500 mm): F.Cu 上 D8 的焊盘 2 [/LA_PROT]
+    @(36.2000 mm, 32.3500 mm): F.Cu 上 D9 的焊盘 1 [/LA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.2000 mm, 33.6500 mm): F.Cu 上 D8 的焊盘 2 [/LA_PROT]
+    @(32.3000 mm, 33.0000 mm): F.Cu 上 C4 的焊盘 1 [/LA_PROT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 29.4800 mm): F.Cu 上 C5 的焊盘 1 [/ADS_CH1P]
+    @(44.0250 mm, 30.0000 mm): F.Cu 上 R5 的焊盘 2 [/ADS_CH1P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.2000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H1 [/ADS_CH1P]
+    @(45.8000 mm, 29.4800 mm): F.Cu 上 C5 的焊盘 1 [/ADS_CH1P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(27.2000 mm, 33.1000 mm): F.Cu 上 D2 的焊盘 1 [/LA_ELEC]
+    @(25.2750 mm, 33.2000 mm): F.Cu 上 J1 的焊盘 2 [/LA_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.1750 mm, 33.0000 mm): F.Cu 上 R4 的焊盘 1 [/LA_ELEC]
+    @(27.2000 mm, 33.1000 mm): F.Cu 上 D2 的焊盘 1 [/LA_ELEC]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.5625 mm, 41.0500 mm): F.Cu 上 Q1 的焊盘 1 [/BAT_GATE]
+    @(65.8000 mm, 47.0100 mm): F.Cu 上 R20 的焊盘 1 [/BAT_GATE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.2875 mm, 42.0000 mm): F.Cu 上 F1 的焊盘 2 [/BAT_FUSED]
+    @(64.5625 mm, 42.9500 mm): F.Cu 上 Q1 的焊盘 2 [/BAT_FUSED]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.8000 mm, 44.1900 mm): F.Cu 上 R45 的焊盘 2 [/SD_DAT2]
+    @(107.0500 mm, 44.1050 mm): F.Cu 上 J4 的焊盘 1 [/SD_DAT2]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.2250 mm, 24.2000 mm): F.Cu 上 C16 的焊盘 1 [/ADS_VCAP1]
+    @(52.4000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H5 [/ADS_VCAP1]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 46.4800 mm): F.Cu 上 C61 的焊盘 1 [/SD_CT]
+    @(99.6625 mm, 47.4500 mm): F.Cu 上 U8 的焊盘 3 [/SD_CT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 33.2000 mm): F.Cu 上 U2 的焊盘 12 [/SD_PWR_EN]
+    @(98.0000 mm, 46.7100 mm): F.Cu 上 R40 的焊盘 1 [/SD_PWR_EN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.0000 mm, 46.7100 mm): F.Cu 上 R40 的焊盘 1 [/SD_PWR_EN]
+    @(101.9375 mm, 47.4500 mm): F.Cu 上 U8 的焊盘 4 [/SD_PWR_EN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.0000 mm, 31.4900 mm): F.Cu 上 R33 的焊盘 2 [/NRST]
+    @(88.3000 mm, 34.9800 mm): F.Cu 上 C48 的焊盘 1 [/NRST]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.5400 mm, 47.5000 mm): B.Cu 上 J5 的焊盘 5 [/NRST]
+    @(88.3000 mm, 34.9800 mm): F.Cu 上 C48 的焊盘 1 [/NRST]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.1125 mm, 31.6000 mm): F.Cu 上 U2 的焊盘 8 [/NRST]
+    @(88.0000 mm, 31.4900 mm): F.Cu 上 R33 的焊盘 2 [/NRST]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G6 [/ADS_RESET]
+    @(79.6000 mm, 35.9900 mm): F.Cu 上 R30 的焊盘 2 [/ADS_RESET]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.6000 mm, 35.9900 mm): F.Cu 上 R30 的焊盘 2 [/ADS_RESET]
+    @(97.8875 mm, 33.6000 mm): F.Cu 上 U2 的焊盘 39 [/ADS_RESET]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.0000 mm, 32.5000 mm): F.Cu 上 TP1 的焊盘 1 [/ADS_CH4P]
+    @(49.2000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E1 [/ADS_CH4P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.4900 mm, 35.0000 mm): F.Cu 上 R16 的焊盘 1 [/ADS_CH4P]
+    @(60.0000 mm, 32.5000 mm): F.Cu 上 TP1 的焊盘 1 [/ADS_CH4P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.1375 mm, 24.0500 mm): F.Cu 上 U7 的焊盘 5 [/3V3_USB]
+    @(85.2250 mm, 24.5000 mm): F.Cu 上 C37 的焊盘 1 [/3V3_USB]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 55 [/3V3_USB]
+    @(98.1200 mm, 25.5000 mm): F.Cu 上 C56 的焊盘 1 [/3V3_USB]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 55 [/3V3_USB]
+    @(85.2250 mm, 24.5000 mm): F.Cu 上 C37 的焊盘 1 [/3V3_USB]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.0250 mm, 36.4000 mm): F.Cu 上 R9 的焊盘 2 [/ADS_CH3P]
+    @(45.8000 mm, 37.4800 mm): F.Cu 上 C9 的焊盘 1 [/ADS_CH3P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 37.4800 mm): F.Cu 上 C9 的焊盘 1 [/ADS_CH3P]
+    @(49.2000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F1 [/ADS_CH3P]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.0000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E7 [/ADS_GPIO2_TIE]
+    @(59.2000 mm, 29.7100 mm): F.Cu 上 R53 的焊盘 1 [/ADS_GPIO2_TIE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.0000 mm, 23.9875 mm): F.Cu 上 F2 的焊盘 1 [/VBUS_RAW]
+    @(90.1900 mm, 22.3000 mm): B.Cu 上 J3 的焊盘 1 [/VBUS_RAW]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.4375 mm, 23.6500 mm): F.Cu 上 U10 的焊盘 1 [/USB_DP_POGO]
+    @(96.0000 mm, 24.9900 mm): F.Cu 上 R22 的焊盘 1 [/USB_DP_POGO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.2700 mm, 22.3000 mm): B.Cu 上 J3 的焊盘 3 [/USB_DP_POGO]
+    @(94.4375 mm, 23.6500 mm): F.Cu 上 U10 的焊盘 1 [/USB_DP_POGO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 26.0100 mm): F.Cu 上 R22 的焊盘 2 [/USB_DP]
+    @(96.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 53 [/USB_DP]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.0000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E2 [/ADS_CH4N]
+    @(50.5000 mm, 45.5000 mm): F.Cu 上 TP2 的焊盘 1 [/ADS_CH4N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.4900 mm, 37.4000 mm): F.Cu 上 R17 的焊盘 1 [/ADS_CH4N]
+    @(50.0000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E2 [/ADS_CH4N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D6 [/ADS_DRDY]
+    @(90.1125 mm, 32.4000 mm): F.Cu 上 U2 的焊盘 10 [/ADS_DRDY]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F8 [/ADS_SCLK]
+    @(91.6000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 20 [/ADS_SCLK]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E8 [/ADS_MISO]
+    @(92.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 21 [/ADS_MISO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.8000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H8 [/ADS_MOSI]
+    @(92.4000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 22 [/ADS_MOSI]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.0000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 31 [/RF_MCU]
+    @(96.8000 mm, 38.7935 mm): F.Cu 上 U9 的焊盘 A3 [/RF_MCU]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.2000 mm, 35.8875 mm): F.Cu 上 U2 的焊盘 34 [/HSE_OUT]
+    @(99.2000 mm, 37.5200 mm): F.Cu 上 C43 的焊盘 1 [/HSE_OUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.2000 mm, 37.5200 mm): F.Cu 上 C43 的焊盘 1 [/HSE_OUT]
+    @(100.3000 mm, 35.5500 mm): F.Cu 上 Y1 的焊盘 3 [/HSE_OUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G5 [/ADS_PWDN]
+    @(78.4000 mm, 35.9900 mm): F.Cu 上 R29 的焊盘 2 [/ADS_PWDN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.4000 mm, 35.9900 mm): F.Cu 上 R29 的焊盘 2 [/ADS_PWDN]
+    @(97.8875 mm, 34.0000 mm): F.Cu 上 U2 的焊盘 38 [/ADS_PWDN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 30.4000 mm): F.Cu 上 U2 的焊盘 47 [/SD_SCK_MCU]
+    @(103.9900 mm, 39.7000 mm): F.Cu 上 R43 的焊盘 1 [/SD_SCK_MCU]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 30.0000 mm): F.Cu 上 U2 的焊盘 48 [/SD_MISO_MCU]
+    @(103.9900 mm, 37.5000 mm): F.Cu 上 R44 的焊盘 1 [/SD_MISO_MCU]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.8875 mm, 28.8000 mm): F.Cu 上 U2 的焊盘 51 [/SD_CS_MCU]
+    @(104.4900 mm, 43.3000 mm): F.Cu 上 R41 的焊盘 1 [/SD_CS_MCU]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.0000 mm, 47.5000 mm): B.Cu 上 J5 的焊盘 3 [/SWDIO]
+    @(96.4000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 54 [/SWDIO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.2700 mm, 47.5000 mm): B.Cu 上 J5 的焊盘 4 [/SWCLK]
+    @(95.6000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 56 [/SWCLK]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.0000 mm, 47.0000 mm): F.Cu 上 TP6 的焊盘 1 [/SWO]
+    @(92.8000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 63 [/SWO]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.0000 mm, 28.1125 mm): F.Cu 上 U2 的焊盘 65 [/LED_STATUS_N]
+    @(104.7125 mm, 22.5000 mm): F.Cu 上 D16 的焊盘 1 [/LED_STATUS_N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.5100 mm, 49.0000 mm): F.Cu 上 R48 的焊盘 2 [/SD_DAT0]
+    @(107.0500 mm, 37.5050 mm): F.Cu 上 J4 的焊盘 7 [/SD_DAT0]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.0500 mm, 37.5050 mm): F.Cu 上 J4 的焊盘 7 [/SD_DAT0]
+    @(105.0100 mm, 37.5000 mm): F.Cu 上 R44 的焊盘 2 [/SD_DAT0]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.4000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E5 [/ADS_GPIO4_TIE]
+    @(61.6000 mm, 29.7100 mm): F.Cu 上 R55 的焊盘 1 [/ADS_GPIO4_TIE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.3100 mm, 45.5000 mm): F.Cu 上 R26 的焊盘 2 [/BAT_SENSE_DIV]
+    @(79.4900 mm, 45.5000 mm): F.Cu 上 R27 的焊盘 1 [/BAT_SENSE_DIV]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.4900 mm, 45.5000 mm): F.Cu 上 R27 的焊盘 1 [/BAT_SENSE_DIV]
+    @(81.6900 mm, 45.5000 mm): F.Cu 上 R28 的焊盘 1 [/BAT_SENSE_DIV]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.8250 mm, 40.7000 mm): F.Cu 上 R10 的焊盘 1 [/ADS_RLDOUT]
+    @(51.0000 mm, 41.2100 mm): F.Cu 上 R13 的焊盘 1 [/ADS_RLDOUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.8000 mm, 37.0000 mm): F.Cu 上 U1 的焊盘 B3 [/ADS_RLDOUT]
+    @(48.8250 mm, 40.7000 mm): F.Cu 上 R10 的焊盘 1 [/ADS_RLDOUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.0000 mm, 41.2100 mm): F.Cu 上 R13 的焊盘 1 [/ADS_RLDOUT]
+    @(53.0000 mm, 41.7100 mm): F.Cu 上 R14 的焊盘 1 [/ADS_RLDOUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.0000 mm, 41.7100 mm): F.Cu 上 R14 的焊盘 1 [/ADS_RLDOUT]
+    @(54.2000 mm, 41.6800 mm): F.Cu 上 C12 的焊盘 1 [/ADS_RLDOUT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.5250 mm, 40.7000 mm): F.Cu 上 R11 的焊盘 1 [/RLD_LIMIT_MID]
+    @(47.1750 mm, 40.7000 mm): F.Cu 上 R10 的焊盘 2 [/RLD_LIMIT_MID]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.8000 mm, 37.8000 mm): F.Cu 上 U1 的焊盘 A3 [/ADS_RLDIN]
+    @(51.0000 mm, 40.1900 mm): F.Cu 上 R13 的焊盘 2 [/ADS_RLDIN]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.8000 mm, 36.2000 mm): F.Cu 上 U1 的焊盘 C3 [/ADS_RLDINV]
+    @(53.0000 mm, 40.6900 mm): F.Cu 上 R14 的焊盘 2 [/ADS_RLDINV]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.0000 mm, 40.6900 mm): F.Cu 上 R14 的焊盘 2 [/ADS_RLDINV]
+    @(54.2000 mm, 40.7200 mm): F.Cu 上 C12 的焊盘 2 [/ADS_RLDINV]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.0000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F2 [/ADS_WCT]
+    @(47.0000 mm, 28.9800 mm): F.Cu 上 C13 的焊盘 1 [/ADS_WCT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.8000 mm, 35.4000 mm): F.Cu 上 U1 的焊盘 D3 [/ADS_WCT]
+    @(50.0000 mm, 33.8000 mm): F.Cu 上 U1 的焊盘 F2 [/ADS_WCT]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 34.6000 mm): F.Cu 上 U1 的焊盘 E6 [/ADS_GPIO3_TIE]
+    @(60.4000 mm, 29.7100 mm): F.Cu 上 R54 的焊盘 1 [/ADS_GPIO3_TIE]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.0250 mm, 33.2000 mm): F.Cu 上 R3 的焊盘 2 [/ADS_CH2N]
+    @(41.7100 mm, 46.0000 mm): F.Cu 上 R19 的焊盘 2 [/ADS_CH2N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 33.4800 mm): F.Cu 上 C3 的焊盘 1 [/ADS_CH2N]
+    @(44.0250 mm, 33.2000 mm): F.Cu 上 R3 的焊盘 2 [/ADS_CH2N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.8000 mm, 33.4800 mm): F.Cu 上 C3 的焊盘 1 [/ADS_CH2N]
+    @(50.0000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G2 [/ADS_CH2N]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.8000 mm, 33.0000 mm): F.Cu 上 U1 的焊盘 G3 [/ADS_VCAP4]
+    @(57.4250 mm, 24.2000 mm): F.Cu 上 C19 的焊盘 1 [/ADS_VCAP4]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.2000 mm, 32.2000 mm): F.Cu 上 U1 的焊盘 H6 [/ADS_VCAP2]
+    @(54.3250 mm, 24.2000 mm): F.Cu 上 C17 的焊盘 1 [/ADS_VCAP2]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.0100 mm, 39.7000 mm): F.Cu 上 R43 的焊盘 2 [/SD_CLK]
+    @(107.0500 mm, 39.7050 mm): F.Cu 上 J4 的焊盘 5 [/SD_CLK]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(23.8250 mm, 41.0000 mm): F.Cu 上 R12 的焊盘 1 [/CABLE_SHIELD]
+    @(25.4250 mm, 41.0000 mm): F.Cu 上 C11 的焊盘 1 [/CABLE_SHIELD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.4250 mm, 41.0000 mm): F.Cu 上 C11 的焊盘 1 [/CABLE_SHIELD]
+    @(25.2750 mm, 38.0000 mm): F.Cu 上 J1 的焊盘 6 [/CABLE_SHIELD]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.5100 mm, 43.3000 mm): F.Cu 上 R46 的焊盘 2 [/SD_DAT3]
+    @(105.5100 mm, 43.3000 mm): F.Cu 上 R41 的焊盘 2 [/SD_DAT3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.5100 mm, 43.3000 mm): F.Cu 上 R41 的焊盘 2 [/SD_DAT3]
+    @(107.0500 mm, 43.0050 mm): F.Cu 上 J4 的焊盘 2 [/SD_DAT3]
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

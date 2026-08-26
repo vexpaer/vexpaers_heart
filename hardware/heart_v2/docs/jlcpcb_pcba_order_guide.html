@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Heart V2 Rev A 嘉立创 PCB 制造与 SMT 贴片下单实操教程">
+  <title>Heart V2 Rev A · 嘉立创 PCB+SMT 下单教程</title>
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #5e6b76;
+      --line: #dbe2e8;
+      --paper: #ffffff;
+      --wash: #f4f7f9;
+      --blue: #0b63ce;
+      --blue-soft: #e9f2ff;
+      --green: #087443;
+      --green-soft: #e7f7ef;
+      --amber: #8a5100;
+      --amber-soft: #fff4d8;
+      --red: #a32626;
+      --red-soft: #fff0f0;
+      --shadow: 0 12px 35px rgba(20, 47, 70, .08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--wash);
+      font: 15px/1.72 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    a { color: var(--blue); }
+    code, kbd, .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    code {
+      padding: .12em .34em;
+      border: 1px solid #d6e0e8;
+      border-radius: 4px;
+      background: #f7f9fb;
+      overflow-wrap: anywhere;
+    }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 20px 70px; }
+    .hero {
+      color: #fff;
+      border-radius: 18px;
+      padding: 34px 38px 30px;
+      background:
+        radial-gradient(circle at 88% 15%, rgba(105, 189, 255, .35), transparent 30%),
+        linear-gradient(135deg, #102c47, #154f77 55%, #0c6a74);
+      box-shadow: var(--shadow);
+    }
+    .hero h1 { margin: 0 0 10px; font-size: clamp(26px, 4vw, 42px); line-height: 1.15; }
+    .hero p { max-width: 850px; margin: 8px 0; color: #e7f4ff; }
+    .hero .stamp { margin-top: 18px; color: #c7e9ff; font-size: 13px; }
+    .status {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .status div {
+      padding: 12px 14px;
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 10px;
+      background: rgba(255,255,255,.1);
+    }
+    .status b { display: block; font-size: 18px; }
+    .status span { color: #d6efff; font-size: 12px; }
+    .layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 24px; align-items: start; }
+    nav {
+      position: sticky;
+      top: 18px;
+      margin-top: 24px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--paper);
+      box-shadow: 0 5px 18px rgba(20, 47, 70, .04);
+    }
+    nav strong { display: block; margin-bottom: 8px; }
+    nav a { display: block; padding: 4px 0; color: var(--muted); text-decoration: none; font-size: 13px; }
+    nav a:hover { color: var(--blue); }
+    main { min-width: 0; }
+    section {
+      margin-top: 24px;
+      padding: 27px 30px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--paper);
+      box-shadow: 0 5px 18px rgba(20, 47, 70, .04);
+    }
+    section:first-child { margin-top: 24px; }
+    h2 { margin: 0 0 16px; font-size: 25px; line-height: 1.25; }
+    h3 { margin: 24px 0 9px; font-size: 18px; line-height: 1.35; }
+    h3:first-child { margin-top: 0; }
+    h4 { margin: 18px 0 6px; font-size: 15px; }
+    p { margin: 8px 0 12px; }
+    ul, ol { margin-top: 8px; padding-left: 1.5em; }
+    li + li { margin-top: 5px; }
+    .lead { color: var(--muted); font-size: 16px; }
+    .callout {
+      margin: 16px 0;
+      padding: 15px 17px;
+      border-left: 4px solid var(--blue);
+      border-radius: 8px;
+      background: var(--blue-soft);
+    }
+    .callout.good { border-left-color: var(--green); background: var(--green-soft); }
+    .callout.warn { border-left-color: var(--amber); background: var(--amber-soft); }
+    .callout.stop { border-left-color: var(--red); background: var(--red-soft); }
+    .callout strong { display: block; margin-bottom: 3px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .card { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: #fbfcfd; }
+    .card h3, .card h4 { margin-top: 0; }
+    .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 16px; font-size: 14px; }
+    th, td { padding: 9px 10px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { background: #edf3f7; font-weight: 700; }
+    tr:nth-child(even) td { background: #fbfcfd; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 12px; font-weight: 700; }
+    .tag.green { color: var(--green); background: var(--green-soft); }
+    .tag.amber { color: var(--amber); background: var(--amber-soft); }
+    .tag.red { color: var(--red); background: var(--red-soft); }
+    .step {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr);
+      gap: 12px;
+      margin: 15px 0;
+    }
+    .stepno {
+      display: grid;
+      width: 30px;
+      height: 30px;
+      place-items: center;
+      border-radius: 50%;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 700;
+    }
+    .stepbody { padding-bottom: 4px; border-bottom: 1px dashed var(--line); }
+    .stepbody strong { display: block; margin-bottom: 3px; }
+    .filelist { display: grid; gap: 8px; }
+    .file {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(0, 2fr);
+      gap: 12px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfd;
+    }
+    .file code { border: 0; background: transparent; padding: 0; }
+    .checklist { display: grid; gap: 9px; }
+    label.check { display: flex; gap: 9px; align-items: flex-start; cursor: pointer; }
+    label.check input { margin-top: 5px; accent-color: var(--green); }
+    .progress {
+      height: 9px;
+      margin: 8px 0 16px;
+      overflow: hidden;
+      border-radius: 99px;
+      background: #e2e9ee;
+    }
+    .progress > i { display: block; width: 0; height: 100%; background: var(--green); transition: width .2s ease; }
+    .small { color: var(--muted); font-size: 13px; }
+    .right { text-align: right; }
+    .nowrap { white-space: nowrap; }
+    .two-col-list { columns: 2; column-gap: 28px; }
+    .two-col-list li { break-inside: avoid; }
+    details { margin: 10px 0; border: 1px solid var(--line); border-radius: 8px; padding: 10px 13px; }
+    summary { cursor: pointer; font-weight: 700; }
+    footer { margin-top: 26px; color: var(--muted); text-align: center; font-size: 13px; }
+    @media (max-width: 860px) {
+      .layout { display: block; }
+      nav { position: static; }
+      nav a { display: inline-block; margin-right: 12px; }
+      .status { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .grid, .grid.three { grid-template-columns: 1fr; }
+      .two-col-list { columns: 1; }
+    }
+    @media (max-width: 560px) {
+      .page { padding: 12px 10px 40px; }
+      .hero { padding: 25px 20px; border-radius: 13px; }
+      section { padding: 21px 18px; }
+      .status { grid-template-columns: 1fr 1fr; gap: 7px; }
+      .status div { padding: 9px; }
+      .status b { font-size: 15px; }
+      .file { grid-template-columns: 1fr; gap: 3px; }
+      table { display: block; overflow-x: auto; white-space: normal; }
+    }
+    @media print {
+      body { background: #fff; font-size: 10.5pt; }
+      .page { max-width: none; padding: 0; }
+      .hero { color: #000; padding: 18px 0; border-radius: 0; background: #fff; box-shadow: none; border-bottom: 2px solid #000; }
+      .hero p, .hero .stamp, .status span { color: #333; }
+      .status { margin-top: 10px; }
+      .status div { color: #000; border: 1px solid #999; background: #fff; }
+      nav { display: none; }
+      .layout { display: block; }
+      section { margin-top: 14px; padding: 14px 0; border: 0; box-shadow: none; break-inside: avoid; }
+      a { color: #000; text-decoration: underline; }
+      .callout, .card, .file { break-inside: avoid; }
+      footer { border-top: 1px solid #aaa; padding-top: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero" id="top">
+      <h1>Heart V2 Rev A<br>嘉立创 PCB + SMT 贴片下单实操教程</h1>
+      <p>这份文档对应仓库里已经冻结的新版板：100 × 32 mm、四层、0.8 mm、所有 SMT 元件在顶层，底面只保留 USB/SWD 裸接触结构。照着顺序上传、匹配、检查，就能把“打板”和“贴片”作为同一个嘉立创订单完成。</p>
+      <p class="stamp">文档版本：2026-08-26 · 适用于本目录中的 Heart V2 Rev A 输出；嘉立创页面的实时价格、库存、可选工艺和审核结果始终以你下单当天页面为准。</p>
+      <div class="status" aria-label="板卡状态">
+        <div><b>4 层 / 0.8 mm</b><span>100 × 32 mm，圆角 2 mm</span></div>
+        <div><b>152 个贴片位</b><span>BOM 与 CPL 已逐项对齐</span></div>
+        <div><b>ERC / DRC = 0</b><span>当前源文件检查通过</span></div>
+        <div><b>单面贴片优先</b><span>实际装配面为顶层</span></div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <nav aria-label="章节导航">
+        <strong>本页目录</strong>
+        <a href="#decision">0. 先看结论</a>
+        <a href="#files">1. 你会拿到什么</a>
+        <a href="#before">2. 下单前准备</a>
+        <a href="#pcb">3. PCB 订单</a>
+        <a href="#pcba">4. PCBA 工艺</a>
+        <a href="#upload">5. BOM / CPL 上传</a>
+        <a href="#matching">6. 选料与匹配</a>
+        <a href="#review">7. 方向与 DFM 审查</a>
+        <a href="#payment">8. 报价、付款、收货</a>
+        <a href="#bringup">9. 第一块板验证</a>
+        <a href="#stop">10. 红线与排障</a>
+        <a href="#check">11. 最终清单</a>
+      </nav>
+
+      <main>
+        <section id="decision">
+          <h2>0. 先看结论：怎么选才不会把板子下错</h2>
+          <p class="lead">推荐的动作是：上传本目录的制造压缩包，添加 PCBA，使用已经生成的 BOM 和 CPL，逐条确认嘉立创实际匹配的料号，最后再付款。</p>
+          <div class="callout good">
+            <strong>推荐路径</strong>
+            在嘉立创报价页先尝试 <b>四层 / 0.8 mm / 单面贴片 / Economic PCBA</b>。本板的 152 个可贴片元件都在顶层，100 × 32 mm 也落在经济型页面通常接受的小板尺寸范围内。
+          </div>
+          <div class="callout warn">
+            <strong>必须确认表面处理</strong>
+            本版生产目标写的是 ENIG，USB/SWD 是裸金属接触点。嘉立创当前能力页对 Economic PCBA 的板厚、表面处理组合可能和 Standard PCBA 不同；如果 0.8 mm + ENIG 在 Economic 页面不可选，先停在报价页，向嘉立创工程确认“经济型能否按 ENIG 做”或改走 Standard/加工艺边。不要为了能下单而悄悄改成 HASL，也不要直接改源 PCB。
+          </div>
+          <div class="callout stop">
+            <strong>不要把这块板当医疗成品</strong>
+            这是非隔离研究原型，没有患者侧 USB 隔离或除颤保护。人体电极接好时禁止插 USB；首板必须先用 ECG 模拟器或等效负载验证。
+          </div>
+        </section>
+
+        <section id="files">
+          <h2>1. 你会拿到什么：文件角色先分清</h2>
+          <p>所有链接都是相对于本 HTML 文件的本地链接。下单时最重要的是三个文件：Gerber 压缩包、BOM、CPL。PDF 用来人工检查，不是替代 Gerber/CPL 的上传文件。</p>
+          <div class="filelist">
+            <div class="file"><code><a href="../production/heart_v2_fab_revA.zip">heart_v2_fab_revA.zip</a></code><span>给 PCB 制造的 Gerber、钻孔、IPC-D-356。PCB 报价页上传这个压缩包。</span></div>
+            <div class="file"><code><a href="../production/heart_v2_bom.csv">heart_v2_bom.csv</a></code><span>给贴片订单的装配 BOM；DNP 已排除，包含 152 个实际装配位所属的料组信息。</span></div>
+            <div class="file"><code><a href="../production/heart_v2_cpl.csv">heart_v2_cpl.csv</a></code><span>给贴片机的坐标文件；当前全部为 top，坐标以成品板物理左下角为原点，均为正数。</span></div>
+            <div class="file"><code><a href="../production/heart_v2_bom_all.csv">heart_v2_bom_all.csv</a></code><span>工程参考用，包含 DNP。第一次 PCBA 下单不要上传它，除非你明确要把 DNP 位置改成装配位。</span></div>
+            <div class="file"><code><a href="../production/docs/heart_v2_assembly_top.pdf">heart_v2_assembly_top.pdf</a></code><span>1:1 顶层装配图，用来核对参考号、极性、芯片方向和大件位置。</span></div>
+            <div class="file"><code><a href="../production/docs/heart_v2_assembly_bottom.pdf">heart_v2_assembly_bottom.pdf</a></code><span>1:1 镜像底层图。J3/J5 裸接触点仍画在这里，但它们不在 CPL 中。</span></div>
+            <div class="file"><code><a href="AUDIT.md">AUDIT.md</a></code><span>布局、关键网络、层叠例外、制造注意事项和首板测试记录。</span></div>
+            <div class="file"><code><a href="../heart_v2.kicad_pcb">heart_v2.kicad_pcb</a></code><span>可追溯源文件；正常下单不上传它替代 Gerber，也不要在网页端临时修改它。</span></div>
+          </div>
+          <div class="callout">
+            <strong>本次已经修正的装配边界</strong>
+            J3、J5 是 USB/SWD pogo 裸接触结构，TP1-TP6 是独立测试焊盘，不是 SMT 元件；它们仍在 PCB 铜箔和装配图中，但已明确从 BOM/CPL 排除。J1、J2、J4 以及顶层电阻、电容、二极管、晶振、芯片、天线等才交给贴片机。
+          </div>
+        </section>
+
+        <section id="before">
+          <h2>2. 下单前准备：先把会卡住报价的事情做完</h2>
+          <div class="grid">
+            <div class="card">
+              <h3>准备资料</h3>
+              <ul>
+                <li>嘉立创账号、收货地址、发票/税务信息。</li>
+                <li>本教程所在目录中的 fab ZIP、BOM、CPL。</li>
+                <li>对天线、连接器和芯片的替代料有明确态度：默认不接受“相近料自动替换”。</li>
+                <li>首板数量、是否需要焊接电池线/线束、是否要额外裸板。</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>先看这三个物理问题</h3>
+              <ul>
+                <li>板厚是 0.8 mm，不要被默认值改成 1.6 mm。</li>
+                <li>100 × 32 mm 是成品板，不含可能新增的工艺边。</li>
+                <li>ENIG 对 pogo 接触耐磨更友好；若页面只给 HASL，先找工程确认。</li>
+              </ul>
+            </div>
+          </div>
+          <h3>板上有哪些故意不装的位</h3>
+          <p>DNP（Do Not Populate）为：<code>C10</code>、<code>C26</code>、<code>C27</code>、<code>C65</code>、<code>C66</code>、<code>R18</code>、<code>R19</code>。它们用于调试、射频匹配或预留，不应在第一版自动装上。以 <code>heart_v2_bom.csv</code> 为准即可；不要用 <code>heart_v2_bom_all.csv</code> 覆盖它。</p>
+          <h3>下单前做一个离线核对</h3>
+          <p>打开 BOM 和 CPL，用表格软件只读查看也可以，但不要改列名、参考号、坐标和角度。当前应满足：BOM 展开的参考号集合 = CPL 参考号集合 = 152 个，且 CPL 的 Side 全部为 <code>top</code>。J3、J5、TP1-TP6 不出现是正确的，不是漏件。</p>
+        </section>
+
+        <section id="pcb">
+          <h2>3. 嘉立创 PCB 订单：从裸板报价开始</h2>
+          <div class="step"><div class="stepno">1</div><div class="stepbody"><strong>进入 PCB 报价</strong><span>登录嘉立创，进入 PCB 订单/在线下单，上传 <code>heart_v2_fab_revA.zip</code>。不要把整个 Git 仓库压成一个包上传，避免旧的 WIP 文件被识别。</span></div></div>
+          <div class="step"><div class="stepno">2</div><div class="stepbody"><strong>确认识别出来的层数和尺寸</strong><span>页面应识别为 4 layers、外形约 100 × 32 mm。若识别出 2 层、尺寸异常、开槽或外形异常，先取消上传重新检查 Gerber，不要点击“继续下单”硬过。</span></div></div>
+          <div class="step"><div class="stepno">3</div><div class="stepbody"><strong>选择板厚和表面处理</strong><span>板厚选 0.8 mm；表面处理优先 ENIG。若组合不可选，保留页面截图/订单号并咨询工程，说明板上有 J3/J5 裸 pogo 接触区和 0.8 mm 四层结构。</span></div></div>
+          <div class="step"><div class="stepno">4</div><div class="stepbody"><strong>确认阻焊、铜厚、颜色和数量</strong><span>颜色不是电气关键；铜厚按报价页默认能力即可，但不要让系统为了低价改变层叠。数量先按首板验证需要填写，留意低数量、加急和拼板的影响。</span></div></div>
+          <div class="step"><div class="stepno">5</div><div class="stepbody"><strong>检查工程审核备注</strong><span>提交前把下面这句话放进备注或工程沟通：<code>Heart V2 Rev A，4L/0.8 mm，100x32 mm，顶层全 SMT；J3/J5 为底面裸 pogo 接触铜，不装料；请确认 ENIG 与小板 PCBA 工艺可行。</code></span></div></div>
+          <div class="callout warn"><strong>不要把“板子能报价”当成“贴片能报价”</strong>PCB 裸板识别成功，只说明 Gerber 可制造；PCBA 还要单独通过元件库存、封装、板边/工艺边、贴片面和料号匹配审核。</div>
+        </section>
+
+        <section id="pcba">
+          <h2>4. PCBA 工艺选择：经济型还是标准型</h2>
+          <p>本板的关键优势是“真正需要机器放置的元件全部在顶层”。这使单面贴片最干净，也避免底面把 pogo 接触区和治具空间占掉。</p>
+          <table>
+            <thead><tr><th>项目</th><th>Economic PCBA（首选起点）</th><th>Standard PCBA（遇到限制再考虑）</th></tr></thead>
+            <tbody>
+              <tr><td>贴片面</td><td>适合本板：单面，全部 SMT 在顶层</td><td>支持单面/双面，但流程和费用可能更高</td></tr>
+              <tr><td>本板尺寸</td><td>100 × 32 mm 通常更匹配经济型小板范围</td><td>当前能力页列出更大的最小单板尺寸；可能需要工艺边或拼板确认</td></tr>
+              <tr><td>板厚 / 层数</td><td>当前能力页通常覆盖 4 层和 0.8 mm，但以报价页可选项为准</td><td>能力更宽，但仍必须核对具体 stack-up</td></tr>
+              <tr><td>工艺边 / 定位孔</td><td>页面可能允许不加边；要确认 pogo 治具是否需要</td><td>通常会要求工艺边/定位特征，新增部分不能碰到成品铜和接触区</td></tr>
+              <tr><td>表面处理</td><td>若没有 0.8 mm + ENIG 组合，先停单咨询</td><td>可能更容易取得 ENIG，但小板尺寸和加边需工程确认</td></tr>
+              <tr><td>适用建议</td><td><span class="tag green">先报价</span> 单面、4L、0.8 mm、ENIG（若可选）</td><td><span class="tag amber">有条件</span> 只有在工艺边/小板/表面处理被经济型拒绝时采用</td></tr>
+            </tbody>
+          </table>
+          <div class="callout">
+            <strong>判断原则</strong>
+            不是“标准型一定更好”，而是要让嘉立创明确回答：这个 100 × 32 mm 的四层 0.8 mm 小板，带底面 pogo 接触铜、顶层全贴片，能否按 ENIG 完成 PCBA。拿到工程确认后再选对应方案。标准型若自动加 5 mm 工艺边，要在生产预览中确认边不会妨碍 J3/J5 的接触和你的夹具。
+          </div>
+        </section>
+
+        <section id="upload">
+          <h2>5. 上传 BOM / CPL：文件不要传反</h2>
+          <div class="step"><div class="stepno">1</div><div class="stepbody"><strong>在 PCBA 页面开启贴片服务</strong><span>在裸板配置完成后选择 PCBA/Assembly，进入 BOM 和 Pick-and-Place/ Centroid 文件上传步骤。嘉立创通常不能把外厂已经做好的裸板直接拿来装配，最好由同一订单完成 PCB 制造和贴片。</span></div></div>
+          <div class="step"><div class="stepno">2</div><div class="stepbody"><strong>BOM 选择 <code>heart_v2_bom.csv</code></strong><span>它是去掉 DNP 的装配清单。不要上传 <code>heart_v2_bom_all.csv</code> 作为第一版装配 BOM；后者仅用于工程追溯。</span></div></div>
+          <div class="step"><div class="stepno">3</div><div class="stepbody"><strong>CPL 选择 <code>heart_v2_cpl.csv</code></strong><span>选择双面/两面解析也不影响结果，因为文件里的有效坐标全部是 top。若网页显示 bottom 有 0 个元件，这是正确的。</span></div></div>
+          <div class="step"><div class="stepno">4</div><div class="stepbody"><strong>确认列映射</strong><span>本文件的列为 <code>Ref, Val, Package, PosX, PosY, Rot, Side</code>；BOM 的列为 <code>References, Value, Footprint, Manufacturer, MPN, Datasheet, Quantity, DNP</code>。如果上传器让你手动选择字段，请把 References/Reference、Value/Comment、Footprint、Manufacturer、MPN 对应到它的同义字段。</span></div></div>
+          <div class="step"><div class="stepno">5</div><div class="stepbody"><strong>保持坐标单位为 mm</strong><span>CPL 是毫米坐标，原点是成品板物理左下角，X/Y 都是正数。不要勾选 inch，不要在 Excel 里给 X/Y 加负号，也不要按 PDF 视觉方向镜像坐标。</span></div></div>
+          <div class="callout good"><strong>上传后应该看到的结果</strong>参考号总数约 152；贴片面为 top；没有 J3、J5、TP1-TP6；DNP 位置没有要求选料。若出现 154 个、出现 bottom 或出现任意 J3/J5/TP1-TP6，立刻删掉这次文件重新上传，不要用网页里的“自动修复”掩盖问题。</div>
+          <details><summary>为什么 BOM 不是“所有焊盘”的清单？</summary><p>BOM 描述的是要购买和装配的元件；CPL 描述贴片机要去放置的元件中心点。J3/J5 的铜接触面是板上功能结构；TP1-TP6 是测试焊盘；它们都不是需要购买的 SMT 料。它们必须留在 Gerber 和 PCB 上，却不能出现在贴片机坐标清单。</p></details>
+        </section>
+
+        <section id="matching">
+          <h2>6. 元件匹配：最容易“看起来成功、实际装错”的一步</h2>
+          <p>嘉立创会把 BOM 行映射到可采购的库存料。工程师要审核的是“制造商 + 完整 MPN + 封装 + 关键电气规格”是否同一个东西，而不只是电阻值或芯片简称。</p>
+          <h3>每一行都按这个顺序确认</h3>
+          <ol>
+            <li><b>参考号：</b>数量、合并范围是否正确，例如 <code>C1-C9,C13</code> 代表 10 个位置。</li>
+            <li><b>制造商：</b>没有品牌替代授权时，不要把 Murata、Nexperia、TI、ST、Bosch 等自动换成同值杂牌。</li>
+            <li><b>MPN：</b>完整核对后缀，尤其是精度、温度、额定电压、封装和环保后缀。</li>
+            <li><b>封装：</b>0402/0603、SOT-23、QFN/BGA 等必须与 BOM、CPL、PDF 三者一致。</li>
+            <li><b>库存与批次：</b>优先选择嘉立创标注的可采购、可按期交付料；缺货不要无提示替换。</li>
+            <li><b>极性/方向：</b>二极管、LED、芯片、晶振、天线、连接器必须保留正确的第一脚方向。</li>
+          </ol>
+          <h3>这块板的料号风险点</h3>
+          <ul class="two-col-list">
+            <li>U1：ADS1294RIZXGT，模拟前端，不能用“同 ADS1294”模糊替代。</li>
+            <li>U2：STM32WB55RGV6，主控和无线芯片，后缀/封装必须完全一致。</li>
+            <li>U3：BMI270，惯导芯片，方向和封装基准要与顶层 PDF 对照。</li>
+            <li>U9：MLPF-WB55-01E3，射频滤波器，替代会改变 RF 匹配。</li>
+            <li>AE1：2450AT18A100E，天线不可按“2.4G 天线”随便替换。</li>
+            <li>J1/J2/J4：Molex 连接器，机械高度、锁扣方向和料号要一致。</li>
+            <li>Y1/Y2：两只不同频率、不同负载电容的 NDK 晶振，不能互换。</li>
+            <li>D1-D15：保护/整流器件，型号后缀和封装会影响漏电与钳位。</li>
+          </ul>
+          <div class="callout warn"><strong>出现“未匹配 / 缺料 / Extended / 替代料”怎么办</strong>先记录参考号和嘉立创推荐 MPN，再回看本 BOM 的 Manufacturer/MPN。只有在电气、机械、库存、交期都接受时才手动批准替代；任何“自动选择相近料”都不应在首板无记录地通过。</div>
+          <p class="small">本项目 BOM 目前用制造商 MPN 作为主要匹配依据，未预填 LCSC 内部编号。若上传器要求 LCSC Part #，在嘉立创料号搜索结果里逐条选择与制造商 MPN、封装完全一致的条目，并把最终选择导出/截图留档。</p>
+        </section>
+
+        <section id="review">
+          <h2>7. 摆件、极性和 DFM 审查：付款前必须看图</h2>
+          <p>不要只看数量和总价。把网页的 placement preview 与本地 1:1 PDF 并排打开，放大到芯片和二极管级别，再确认一次。</p>
+          <div class="grid">
+            <div class="card">
+              <h3>顶层图逐项检查</h3>
+              <ul>
+                <li>U1/U2/U3/U4-U10 的 Pin 1 标记和丝印方向。</li>
+                <li>D1-D16、DNP 预留位的极性标记。</li>
+                <li>Y1/Y2 的焊盘方向、J1/J2/J4 插接方向。</li>
+                <li>AE1 天线位置没有被贴片预览移动。</li>
+                <li>0402/0603 电容电阻没有被合并到错误参考号。</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>底层图逐项检查</h3>
+              <ul>
+                <li>有效贴片元件数量应为 0；不要让系统把 pogo 当成器件。</li>
+                <li>J3 的 USB 顺序为 <code>VBUS / D- / D+ / GND</code>。</li>
+                <li>J5 的底面丝印给出了 SWD 左到右顺序。</li>
+                <li>底面接触区和你的 pogo 治具方向一致。</li>
+              </ul>
+            </div>
+          </div>
+          <h3>旋转角度不要“凭感觉修”</h3>
+          <p>CPL 的 <code>Rot</code> 是以元件库基准为参考的机器角度，不等于你在镜像 PDF 上看到的文字方向。嘉立创预览若显示红点、Pin 1 或极性标记，应回到 1:1 顶层图核对；只有确认坐标原点、层、封装基准都一致后才改。不要为了让文字朝上而整体加 90° 或镜像。</p>
+          <h3>特别看三组布局边界</h3>
+          <table>
+            <thead><tr><th>区域</th><th>检查重点</th><th>通过标准</th></tr></thead>
+            <tbody>
+              <tr><td>ECG 左侧</td><td>J1、保护二极管、串阻链</td><td>连接器入口顺序不变，保护链没有漏贴/错贴</td></tr>
+              <tr><td>MCU / USB / SWD</td><td>U2、U10、J3、J5</td><td>U2/U10 在顶层贴，J3/J5 只保留底面铜接触，不在 CPL</td></tr>
+              <tr><td>RF 右侧</td><td>U9、L1、匹配电容、AE1</td><td>RF 元件位置和天线 keepout 不被工艺边、贴片偏移或替代料破坏</td></tr>
+            </tbody>
+          </table>
+          <div class="callout"><strong>网页预览不清楚就不要付款</strong>要求客服/工程提供清晰的装配预览或生产文件。尤其是 QFN/BGA、天线、连接器和二极管，模糊缩略图不足以做方向确认。</div>
+        </section>
+
+        <section id="payment">
+          <h2>8. 报价、付款、生产文件和收货</h2>
+          <div class="step"><div class="stepno">1</div><div class="stepbody"><strong>处理费用异常</strong><span>芯片、天线、连接器可能触发扩展料、单独采购、X-Ray/检验或工程费。不要只看“最低价”，先看交期、替代料、贴片面和工艺边。</span></div></div>
+          <div class="step"><div class="stepno">2</div><div class="stepbody"><strong>下载或截图生产确认页</strong><span>保留最终 BOM 匹配表、CPL 预览、板厚/表面处理、工艺边、数量、交期和备注。订单号要和这些文件一起归档。</span></div></div>
+          <div class="step"><div class="stepno">3</div><div class="stepbody"><strong>付款前做最终点击检查</strong><span>确认没有被自动勾选的 DNP，没有未审核的替代料，没有从 0.8 mm 变成 1.6 mm，没有从 ENIG 变成 HASL，没有从单面贴片变成双面贴片。</span></div></div>
+          <div class="step"><div class="stepno">4</div><div class="stepbody"><strong>收货先不接电极</strong><span>拿到板后先按本页第 9 节做外观、阻值、限流上电、SWD、USB 和 SD 验证。确认 USB 时电极必须断开。</span></div></div>
+          <h3>收到的每块板都检查</h3>
+          <ul>
+            <li>板边、圆角、工艺边是否影响成品尺寸和夹具。</li>
+            <li>丝印参考号、Pin 1、二极管/LED 极性是否清楚。</li>
+            <li>焊桥、少锡、立碑、偏移、连接器翘起、芯片方向。</li>
+            <li>底面 J3/J5 接触铜是否平整、无阻焊覆盖、与治具相符。</li>
+            <li>天线区域无残留铜、异物或被工艺边挡住。</li>
+          </ul>
+        </section>
+
+        <section id="bringup">
+          <h2>9. 第一块板验证：按风险从低到高</h2>
+          <p class="lead">先确认板没有短路，再加功能，再接外部电极。每一步记录电源电压、限流、现象和板号，出现异常就停止继续加压。</p>
+          <div class="grid three">
+            <div class="card"><h3>A. 无电检查</h3><ol><li>显微镜看电源、QFN/BGA、连接器和天线。</li><li>测 <code>VBAT</code>、<code>3V0</code>、<code>3V0_D</code> 对 GND 的电阻。</li><li>确认电池连接器极性、USB 屏蔽和 pogo 治具没有短接。</li></ol></div>
+            <div class="card"><h3>B. 限流上电</h3><ol><li>先用限流电源/电池模拟路径，不接人体、不接电极。</li><li>观察 3V0/3V0_D 上电顺序和静态电流。</li><li>检查发热、掉压、反复复位。</li></ol></div>
+            <div class="card"><h3>C. 数字接口</h3><ol><li>用 SWD 连接 J5，确认识别、擦写、复位。</li><li>断开电极后测试 USB 枚举和持续传输。</li><li>插 microSD，做格式化、读写和峰值电流测试。</li></ol></div>
+          </div>
+          <h3>D. 传感器、无线和模拟</h3>
+          <ol>
+            <li>检查 RTC 后备、IMU 数据和主控时钟稳定性。</li>
+            <li>在最终外壳、预定电池和人体接近条件下测 BLE 距离、RF 回波/匹配；DNP 的 <code>C65/C66</code> 等匹配位要根据实测决定，不能盲焊。</li>
+            <li>ECG 只接 ECG 模拟器或患者等效负载，记录噪声、输入保护漏电、lead-off 和 RLD 稳定性。</li>
+            <li>完成模拟器验证并确认 USB 断开后，才考虑任何人体连接；这不是医疗安全认证。</li>
+          </ol>
+          <div class="callout stop"><strong>绝对不要省略</strong>电极连接状态下插 USB。该板没有患者侧 USB 隔离；PC、充电器和示波器地可能把危险电流路径带到人体侧。</div>
+        </section>
+
+        <section id="stop">
+          <h2>10. 红线与排障表</h2>
+          <table>
+            <thead><tr><th>现象</th><th>先做什么</th><th>不要做什么</th></tr></thead>
+            <tbody>
+              <tr><td>CPL 多出 J3/J5/TP1-TP6</td><td>重新下载仓库内 CPL；确认使用的是最新输出</td><td>不要在网页上随意删除一半参考号后付款</td></tr>
+              <tr><td>BOM/CPL 数量不一致</td><td>按参考号展开比较；检查是否误传 BOM all</td><td>不要用“自动忽略缺失位”掩盖不一致</td></tr>
+              <tr><td>网页提示底面有贴片</td><td>确认选择的 CPL 是本目录文件，Side 应全为 top</td><td>不要把整份坐标镜像或旋转</td></tr>
+              <tr><td>ENIG/0.8 mm 不可选</td><td>截图配置并问工程，评估 Standard + 工艺边</td><td>不要未经确认改 HASL 或 1.6 mm</td></tr>
+              <tr><td>芯片/天线缺货</td><td>记录候选 MPN，回到电气/机械规格逐项批准</td><td>不要仅按阻值、封装或“同功能”自动替代</td></tr>
+              <tr><td>收到板无法上电</td><td>限流、断开外设，测电源到 GND 电阻和各路压降</td><td>不要直接提高电源电压或绕过限流</td></tr>
+              <tr><td>USB 不枚举</td><td>先查 J3 顺序、U10 方向、USB_DM/DP 连通和供电</td><td>不要一边接电极一边插 USB 试错</td></tr>
+              <tr><td>ECG 噪声或 RLD 异常</td><td>回到模拟器/等效负载，记录保护链和供电纹波</td><td>不要用人体替代实验仪器排故</td></tr>
+            </tbody>
+          </table>
+          <div class="callout stop"><strong>以下任一项出现，停止付款或停止上电</strong>板厚/层数不符；表面处理未经确认；CPL 方向无法解释；替代料没有书面记录；装配预览里出现 J3/J5；发现桥连或电源对地近似短路；电极连接时需要插拔 USB。</div>
+        </section>
+
+        <section id="check">
+          <h2>11. 最终清单：勾完再点“提交订单”</h2>
+          <p class="small">勾选状态只保存在当前浏览器，方便你分阶段下单；不上传任何数据。</p>
+          <div class="progress" aria-label="完成进度"><i id="progressBar"></i></div>
+          <div class="checklist">
+            <label class="check"><input class="task" type="checkbox">我上传的是 <code>heart_v2_fab_revA.zip</code>，不是整个工程目录。</label>
+            <label class="check"><input class="task" type="checkbox">PCB 页面识别为 4 层、约 100 × 32 mm、板厚 0.8 mm。</label>
+            <label class="check"><input class="task" type="checkbox">我确认了 ENIG 是否可用于当前 PCBA 工艺；不可选时已咨询工程。</label>
+            <label class="check"><input class="task" type="checkbox">我上传的是 <code>heart_v2_bom.csv</code>，没有误传 BOM all。</label>
+            <label class="check"><input class="task" type="checkbox">我上传的是 <code>heart_v2_cpl.csv</code>，CPL 全部 top，152 个参考号。</label>
+            <label class="check"><input class="task" type="checkbox">我确认 J3、J5、TP1-TP6 不在 BOM/CPL，但它们的铜接触/测试焊盘仍在 Gerber。</label>
+            <label class="check"><input class="task" type="checkbox">我逐条审核 Manufacturer、MPN、封装、库存和替代料。</label>
+            <label class="check"><input class="task" type="checkbox">我对照顶层 PDF 检查了 U1/U2/U3、二极管、LED、晶振、连接器和天线方向。</label>
+            <label class="check"><input class="task" type="checkbox">我确认没有被自动加入 DNP，且没有误选底面贴片。</label>
+            <label class="check"><input class="task" type="checkbox">我已保存最终匹配表、装配预览、工艺参数、订单号和工程备注。</label>
+            <label class="check"><input class="task" type="checkbox">收板计划包含显微镜检查、限流上电、SWD/USB/SD、RF 和 ECG 模拟器测试。</label>
+            <label class="check"><input class="task" type="checkbox">我理解这不是医疗器械；电极连接时不会插 USB。</label>
+          </div>
+          <p id="progressText" class="small" aria-live="polite">已完成 0 / 12 项</p>
+        </section>
+
+        <section id="references">
+          <h2>官方资料与项目资料</h2>
+          <p>嘉立创网页会更新，以下链接用于核对字段、能力和下单流程；页面中的实时限制优先于本教程：</p>
+          <ul>
+            <li><a href="https://jlcpcb.com/help/article/how-to-generate-the-bom-and-centroid-file-from-kicad" target="_blank" rel="noopener">嘉立创：从 KiCad 生成 BOM 与坐标文件</a></li>
+            <li><a href="https://jlcpcb.com/help/article/component-matching-guidelines-for-pcba-orders" target="_blank" rel="noopener">嘉立创：PCBA 元件匹配指南</a></li>
+            <li><a href="https://jlcpcb.com/capabilities/pcb-assembly-capabilities" target="_blank" rel="noopener">嘉立创：PCB Assembly capabilities</a></li>
+            <li><a href="https://jlcpcb.com/help/article/pcb-assembly-faqs" target="_blank" rel="noopener">嘉立创：PCBA FAQ / 下单流程</a></li>
+            <li><a href="https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly" target="_blank" rel="noopener">嘉立创：Pick-and-Place 文件要求</a></li>
+            <li><a href="https://jlcpcb.com/help/article/terms-and-conditions-of-jlcpcb-assembly-service" target="_blank" rel="noopener">嘉立创：装配服务条款与来料/方向说明</a></li>
+            <li><a href="AUDIT.md">本项目 Heart V2 Rev A 审计报告</a> · <a href="../production/README.md">生产包说明</a></li>
+          </ul>
+          <p class="small">官方页面访问时间：2026-08-26。报价、库存、税费、交期和可选工艺可能变化；提交订单前以嘉立创订单页面和工程确认结果为准。</p>
+        </section>
+      </main>
+    </div>
+    <footer>Heart V2 Rev A · 本页用于工程下单和首板验证记录 · 不是医疗安全说明书</footer>
+  </div>
+  <script>
+    (function () {
+      var boxes = Array.prototype.slice.call(document.querySelectorAll('.task'));
+      var bar = document.getElementById('progressBar');
+      var text = document.getElementById('progressText');
+      var key = 'heart-v2-jlcpcb-guide-checks-v1';
+      try {
+        var saved = JSON.parse(localStorage.getItem(key) || '[]');
+        boxes.forEach(function (box, i) { box.checked = !!saved[i]; });
+      } catch (e) {}
+      function update() {
+        var done = boxes.filter(function (box) { return box.checked; }).length;
+        var pct = boxes.length ? Math.round(done / boxes.length * 100) : 0;
+        bar.style.width = pct + '%';
+        text.textContent = '已完成 ' + done + ' / ' + boxes.length + ' 项（' + pct + '%）';
+        try { localStorage.setItem(key, JSON.stringify(boxes.map(function (box) { return box.checked; }))); } catch (e) {}
+      }
+      boxes.forEach(function (box) { box.addEventListener('change', update); });
+      update();
+    }());
+  </script>
+</body>
+</html>

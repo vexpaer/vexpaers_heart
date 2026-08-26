@@ -1,0 +1,3180 @@
+{
+  "drc": {
+    "returncode": 5,
+    "stdout": "发现 0 条违规项\n发现 0 个未连接的项目\n发现 157 个原理图一致性问题\n保存 DRC 报告到 tmp/pcb-validate-drc.rpt\n",
+    "stderr": "",
+    "report": "tmp/pcb-validate-drc.rpt",
+    "report_exists": true,
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": [
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Low-current status LED')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resettable fuse')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resettable fuse')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.molex.com/en-us/products/part-detail/781715006')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Protected 1S LiPo connector')"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'P-channel high-side reverse-polarity protection MOSFET')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "原理图中缺少符号字段 'Manufacturer'"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/ads1294r.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps2116.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a21.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a20.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a20.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps22918.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf')"
+      },
+      {
+        "type": "footprint_symbol_field_mismatch",
+        "severity": "warning",
+        "refdes": null,
+        "field": null,
+        "pcb_value": null,
+        "schematic_value": null,
+        "kind": "other",
+        "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Four-pad crystal')"
+      }
+    ],
+    "status": "clean"
+  },
+  "netlist": {
+    "command": "sch netlist",
+    "argv": [
+      "/home/vexpaer/.cache/codex-kicad-10.0.5/AppDir/bin/kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--output",
+      "tmp/pcb-validate-sch-netlist.net",
+      "hardware/heart_v2/heart_v2.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "output": "tmp/pcb-validate-sch-netlist.net"
+  },
+  "parity": {
+    "clean": true,
+    "schematic_refs": 167,
+    "board_refs": 167,
+    "refs_missing_on_board": [],
+    "refs_extra_on_board": [],
+    "footprint_mismatches": []
+  },
+  "schematic_parity": [
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Low-current status LED')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resettable fuse')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resettable fuse')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.molex.com/en-us/products/part-detail/781715006')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Protected 1S LiPo connector')"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Inductor or ferrite bead')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'P-channel high-side reverse-polarity protection MOSFET')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "原理图中缺少符号字段 'Manufacturer'"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/ads1294r.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps2116.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a21.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a20.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps7a20.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tps22918.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf')"
+    },
+    {
+      "type": "footprint_symbol_field_mismatch",
+      "severity": "warning",
+      "refdes": null,
+      "field": null,
+      "pcb_value": null,
+      "schematic_value": null,
+      "kind": "other",
+      "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Four-pad crystal')"
+    }
+  ]
+}

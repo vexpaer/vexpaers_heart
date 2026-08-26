@@ -16,12 +16,17 @@
 |---|---|
 | 厂商目标 | JLCPCB Standard PCBA |
 | 首批数量 | 5 套主板 + 5 套 USB-Pogo 夹具板 |
-| 主板 | 100.0 mm × 30.0 mm 上限内的圆角长板 |
-| 层叠 | 4 层，0.8 mm；L1 signal/components、L2 solid GND、L3 power/signal、L4 signal |
+| 主板 | 100.0 mm × 32.0 mm 圆角长板；北侧新增 2.0 mm 服务触点带 |
+| 层叠 | 4 层，0.8 mm；L1 signal/components、L2 GND reference（两处已审计的局部 3V0_D 短桥）、L3 power/signal、L4 signal |
 | 表面处理 | ENIG |
 | 装配 | 主板主要器件全部在顶层；底层仅 Pogo/SWD 接触面、过孔和必要铜 |
 | 外壳 | 金属主体；天线端使用塑料 RF 端盖/窗口，要求闭盖 BLE |
 | 电池 | 带保护 1S 3.7 V、约 1000 mAh、低于 5 mm 厚；与主板同平面独立仓，不叠放 |
+
+> 2026-08-26 布局实施例外：用户明确授权在确有必要时扩大板框。最终板仅向北侧
+> 增加 2.0 mm（由 100 × 30 mm 改为 100 × 32 mm），用于把 USB 与 SWD Pogo
+> 分成两条整齐、可标注的服务排；ECG、天线和卡座所在其余机械基准不变。外壳图
+> 和夹具图必须以 100 × 32 mm 最终板框更新。
 
 ## 3. 已选关键器件
 
